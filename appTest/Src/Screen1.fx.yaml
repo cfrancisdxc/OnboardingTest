@@ -1,0 +1,10 @@
+Screen1 As screen:
+    OnVisible: |-
+        =Collect(Collection1, {Text: Label1.Text})
+
+    Label1 As label:
+        Text: ="This is a test"
+        X: =528
+        Y: =280
+        ZIndex: =1
+
