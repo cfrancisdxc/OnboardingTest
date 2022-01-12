@@ -8,3 +8,9 @@ Screen1 As screen:
         Y: =280
         ZIndex: =1
 
+    Button1 As button:
+        Text: ="Button"
+        X: =1170
+        Y: =85
+        ZIndex: =2
+
