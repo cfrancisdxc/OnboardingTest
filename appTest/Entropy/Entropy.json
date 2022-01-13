@@ -1,17 +1,91 @@
 {
   "ComponentIndexes": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Button2": 5,
+    "FooterContainer1": 12,
+    "Header": 4,
+    "HeaderContainer1": 10,
+    "How-To Guides Template": 3,
+    "Image2": 18,
+    "IT": 6,
+    "Jacob Screen": 8,
+    "Label1": 16,
+    "Label2": 15,
+    "Label3": 19,
+    "Label4": 20,
+    "Label5": 7,
+    "Label6": 21,
+    "Label7": 22,
+    "Main Landing Page": 13,
+    "MainSectionContainer1": 11,
+    "Screen1": 14,
+    "ScreenContainer1": 9
+  },
   "FunctionParamsInvariantScripts": {},
+  "HeaderLastSavedDateTimeUTC": "01/13/2022 16:27:20",
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
+  "LocalResourceFileNames": {
+    "DXC Logo 2C RGB": "0001.bmp",
+    "it": "8ffe0868-ff35-42c5-bbd9-f246fb050b28.PNG",
+    "ITOutsource": "e601b8a8-a3bf-44e5-9662-8e15f7e626fe.PNG"
+  },
+  "LocalResourceRootPaths": {
+    "DXC Logo 2C RGB": "https://docserverpwaprodeus.blob.core.windows.net/b4664012-2d81-49e5-8bab-918bdb2c62f5-1/resource/Assets0Images00001.bmp?sv=2017-04-17&sr=b&sig=fKzKjEne2VfXu5hK12xHnxavzxN%2B1dE6x7F%2BMqs%2BuUg%3D&spr=https&se=2022-01-14T16%3A36%3A15Z&sp=r",
+    "it": "https://docserverpwaprodeus.blob.core.windows.net/b4664012-2d81-49e5-8bab-918bdb2c62f5-1/resource/4eefaa70-dc9d-44d7-a176-adf79f4e3b8a.PNG?sv=2017-04-17&sr=b&sig=eJZhMi3pqwbCIYztOzE91U1jF65%2BzYBEkmgGIYPssPA%3D&spr=https&se=2022-01-14T16%3A39%3A50Z&sp=r",
+    "ITOutsource": "https://docserverpwaprodeus.blob.core.windows.net/b4664012-2d81-49e5-8bab-918bdb2c62f5-1/resource/32ee0706-c53c-4baa-9042-303e6e415b31.PNG?sv=2017-04-17&sr=b&sig=rnAJNwp3B3QLPj7LcymCUj8Q0ioO16nMhFoyx957fm0%3D&spr=https&se=2022-01-14T16%3A41%3A26Z&sp=r"
+  },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "Collection1": 0
+  },
   "OrderGroupControls": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
-  "TemplateVersions": {}
+  "OrderXMLTemplate": {
+    "button": 1,
+    "groupContainer": 0,
+    "image": 2,
+    "label": 3
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "Button2": 4,
+    "FooterContainer1": 11,
+    "Header": 3,
+    "HeaderContainer1": 9,
+    "How-To Guides Template": 2,
+    "Image2": 0,
+    "IT": 5,
+    "Jacob Screen": 7,
+    "Label1": 15,
+    "Label2": 14,
+    "Label3": 0,
+    "Label4": 0,
+    "Label5": 6,
+    "Label6": 0,
+    "Label7": 0,
+    "Main Landing Page": 12,
+    "MainSectionContainer1": 10,
+    "Screen1": 13,
+    "ScreenContainer1": 8
+  },
+  "ResourcesJsonIndices": {
+    "Image-DXC Logo 2C RGB": 0,
+    "Image-it": 1,
+    "Image-ITOutsource": 3,
+    "Image-SampleImage": 2
+  },
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0474652,
+    "ControlCount": {
+      "button": 1,
+      "groupContainer": 5,
+      "label": 3,
+      "screen": 5
+    },
+    "DeserializationLoadTime": 0.2464462,
+    "ErrorCount": 5
+  }
 }
