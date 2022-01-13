@@ -11,8 +11,12 @@
         ZIndex: =1
 
         Button2 As button:
-            Text: ="Button"
-            X: =819
-            Y: =71
+            Fill: =RGBA(255, 255, 255, 1)
+            OnSelect: |
+                =Navigate('Main Landing Page')
+            Text: ="Home"
+            Width: =220
+            X: =824
+            Y: =80
             ZIndex: =2
 

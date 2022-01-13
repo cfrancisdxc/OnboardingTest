@@ -31,31 +31,10 @@
       "FontWeight",
       "Align",
       "VerticalAlign",
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "",
-        "InvariantPropertyName": "X",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "",
-        "InvariantPropertyName": "Y",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
+      "X",
+      "Y",
       "Width",
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "",
-        "InvariantPropertyName": "Height",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
+      "Height",
       "DisplayMode",
       "ZIndex",
       "LineHeight",
@@ -80,7 +59,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Label1",
-    "ParentIndex": 1,
+    "ParentIndex": 2,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
