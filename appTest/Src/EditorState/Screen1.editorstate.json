@@ -28,12 +28,26 @@
       "PressedFill",
       "HoverFill",
       "Font",
-      "FontWeight",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "FontWeight",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "Align",
       "VerticalAlign",
       "X",
       "Y",
-      "Width",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "Width",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "Height",
       "DisplayMode",
       "ZIndex",
@@ -59,7 +73,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Label1",
-    "ParentIndex": 2,
+    "ParentIndex": 0,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -269,7 +283,7 @@
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "\"Text\"",
+        "AutoRuleBindingString": "",
         "InvariantPropertyName": "Text",
         "IsLockable": false,
         "NameMapSourceSchema": "?"
@@ -370,7 +384,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Label2",
-    "ParentIndex": 0,
+    "ParentIndex": 1,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -471,14 +485,7 @@
       {
         "Category": "Design",
         "PropertyName": "FontWeight",
-        "RuleProviderType": "Unknown",
-        "TaggedRuleArray": [
-          {
-            "InvariantScript": "Bold",
-            "Property": "FontWeight",
-            "Tag": "{\"start\":0,\"limit\":23}"
-          }
-        ]
+        "RuleProviderType": "Unknown"
       },
       {
         "Category": "Design",

@@ -8,23 +8,24 @@ Screen1 As screen:
         Fill: =RGBA(237, 237, 237, 1)
         FontWeight: =Bold
         Height: =125
-        Text: ="Onboarding Tasks"
-        Width: =500
+        Text: |-
+            ="Onboarding Tasks
+            Achieve 100% in each onboarding catgeories below by following the links
+             "
+        Width: =650
         X: =100
         Y: =150
         ZIndex: =1
 
     Label2 As label:
         Fill: =RGBA(237, 237, 237, 1)
-        FontWeight: =Normal
+        FontWeight: =FontWeight.Bold
         Height: =125
         Text: |-
             ="Service Line Onboarding
-            
-            
             "
-        Width: =300
-        X: =900
+        Width: =400
+        X: =800
         Y: =150
         ZIndex: =2
 
