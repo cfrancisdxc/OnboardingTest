@@ -1,17 +1,59 @@
 {
   "ComponentIndexes": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Button1": 12,
+    "Container1": 4,
+    "How-To Guides Template": 3,
+    "IT": 6,
+    "Label1": 11,
+    "Label2": 9,
+    "Label3": 10,
+    "Label4": 5,
+    "Main Landing Page": 7,
+    "Screen1": 8
+  },
   "FunctionParamsInvariantScripts": {},
+  "HeaderLastSavedDateTimeUTC": "01/13/2022 16:06:52",
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "Collection1": 0
+  },
   "OrderGroupControls": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "PublishOrderIndices": {},
+  "OrderXMLTemplate": {
+    "button": 2,
+    "groupContainer": 0,
+    "label": 1
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "Button1": 11,
+    "Container1": 3,
+    "How-To Guides Template": 2,
+    "IT": 5,
+    "Label1": 10,
+    "Label2": 8,
+    "Label3": 9,
+    "Label4": 4,
+    "Main Landing Page": 6,
+    "Screen1": 7
+  },
   "ResourcesJsonIndices": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0980552,
+    "ControlCount": {
+      "button": 1,
+      "groupContainer": 1,
+      "label": 4,
+      "screen": 4
+    },
+    "DeserializationLoadTime": 1.1685088,
+    "ErrorCount": 5
+  }
 }
