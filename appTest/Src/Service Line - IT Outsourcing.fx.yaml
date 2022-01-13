@@ -1,0 +1,34 @@
+"'Service Line - IT Outsourcing' As screen":
+
+    Image2 As image:
+        Height: =241
+        Image: =ITOutsource
+        Width: =774
+        X: =216
+        Y: =124
+        ZIndex: =2
+
+    Label3 As label:
+        Text: ="Text"
+        X: =233
+        Y: =325
+        ZIndex: =3
+
+    Label6 As label:
+        Text: ="Text"
+        X: =635
+        Y: =325
+        ZIndex: =5
+
+    Label7 As label:
+        Text: ="Text"
+        X: =840
+        Y: =325
+        ZIndex: =6
+
+    Label8 As label:
+        Text: ="Overview"
+        X: =66
+        Y: =415
+        ZIndex: =8
+
