@@ -10,15 +10,6 @@
         Y: =60
         ZIndex: =1
 
-        Label4 As label:
-            Color: =RGBA(255, 255, 255, 1)
-            FontWeight: =FontWeight.Bold
-            Height: =182
-            Size: =40
-            Text: =
-            Width: =1106
-            ZIndex: =1
-
         Button2 As button:
             Text: ="Button"
             X: =819

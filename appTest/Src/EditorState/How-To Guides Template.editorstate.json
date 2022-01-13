@@ -447,7 +447,14 @@
         "IsLockable": false,
         "NameMapSourceSchema": "?"
       },
-      "Text",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "Text",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "Role",
       {
         "AFDDataSourceName": "",
