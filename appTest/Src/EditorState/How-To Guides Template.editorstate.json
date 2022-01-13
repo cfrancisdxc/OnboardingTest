@@ -16,25 +16,11 @@
       "HoverBorderColor",
       "BorderStyle",
       "FocusedBorderColor",
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "",
-        "InvariantPropertyName": "Color",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
+      "Color",
       "DisabledColor",
       "PressedColor",
       "HoverColor",
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "",
-        "InvariantPropertyName": "DisplayMode",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
+      "DisplayMode",
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
@@ -47,24 +33,10 @@
       "PressedFill",
       "HoverFill",
       "Font",
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "",
-        "InvariantPropertyName": "FontWeight",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
+      "FontWeight",
       "Align",
       "VerticalAlign",
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "",
-        "InvariantPropertyName": "X",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
+      "X",
       "Y",
       "Width",
       "Height",

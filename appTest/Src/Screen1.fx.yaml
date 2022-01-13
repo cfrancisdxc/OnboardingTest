@@ -7,10 +7,24 @@ Screen1 As screen:
         DisabledFill: =RGBA(237, 237, 237, 1)
         Fill: =RGBA(237, 237, 237, 1)
         FontWeight: =Bold
-        Height: =126
-        Text: ="OnBoarding Tasks"
+        Height: =125
+        Text: ="Onboarding Tasks"
         Width: =500
-        X: =110
+        X: =100
         Y: =150
         ZIndex: =1
+
+    Label2 As label:
+        Fill: =RGBA(237, 237, 237, 1)
+        FontWeight: =Normal
+        Height: =125
+        Text: |-
+            ="Service Line Onboarding
+            
+            
+            "
+        Width: =300
+        X: =900
+        Y: =150
+        ZIndex: =2
 

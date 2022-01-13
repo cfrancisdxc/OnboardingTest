@@ -1,2 +1,12 @@
 IT As screen:
 
+    Label5 As label:
+        BorderColor: =RGBA(109, 49, 162, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =50
+        Text: ="Industries We Serve"
+        Width: =190
+        X: =492
+        Y: =48
+        ZIndex: =1
+
