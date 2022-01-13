@@ -1002,7 +1002,7 @@
     "StyleName": "defaultLabelStyle",
     "Type": "ControlInfo"
   },
-  "Main Landing page": {
+  "Main Landing Page": {
     "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Fill",
@@ -1030,33 +1030,13 @@
     "IsLocked": false,
     "LayoutName": "",
     "MetaDataIDKey": "",
-    "Name": "Main Landing page",
+    "Name": "Main Landing Page",
     "ParentIndex": 0,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
         "Category": "Design",
-        "PropertyName": "LoadingSpinner",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "Width",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "Height",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "ImagePosition",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "LoadingSpinnerColor",
+        "PropertyName": "Size",
         "RuleProviderType": "Unknown"
       },
       {
@@ -1066,12 +1046,32 @@
       },
       {
         "Category": "Design",
-        "PropertyName": "Size",
+        "PropertyName": "ImagePosition",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Height",
         "RuleProviderType": "Unknown"
       },
       {
         "Category": "Design",
         "PropertyName": "Orientation",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Width",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "LoadingSpinner",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "LoadingSpinnerColor",
         "RuleProviderType": "Unknown"
       },
       {

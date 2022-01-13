@@ -1,4 +1,4 @@
-"'Main Landing page' As screen":
+"'Main Landing Page' As screen":
     OnVisible: |-
         =Collect(Collection1, {Text: Label1_1.Text})
 
