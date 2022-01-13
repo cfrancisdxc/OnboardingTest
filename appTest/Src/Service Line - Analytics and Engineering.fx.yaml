@@ -16,3 +16,15 @@
         Y: =192
         ZIndex: =2
 
+    Label37 As label:
+        Text: ="Text"
+        X: =379
+        Y: =324
+        ZIndex: =3
+
+    Label38 As label:
+        Text: ="Text"
+        X: =617
+        Y: =324
+        ZIndex: =4
+
