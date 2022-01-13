@@ -20,3 +20,9 @@ Screen1 As screen:
         Y: =40
         ZIndex: =3
 
+    Label3 As label:
+        Text: ="Text"
+        X: =484
+        Y: =565
+        ZIndex: =4
+
