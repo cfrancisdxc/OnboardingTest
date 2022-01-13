@@ -11,7 +11,9 @@
         ZIndex: =1
 
         Button2 As button:
+            Color: =RGBA(109, 49, 162, 1)
             Fill: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
             OnSelect: |
                 =Navigate('Main Landing Page')
             Text: ="Home"
