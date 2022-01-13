@@ -5,7 +5,7 @@
     Image9 As image:
         Height: =143
         Image: =ModernWorkplace
-        Width: =400
+        Width: =904
         X: =402
         Y: =291
         ZIndex: =1
@@ -15,4 +15,34 @@
         X: =210
         Y: =96
         ZIndex: =2
+
+    Label32 As label:
+        Text: ="Overview"
+        X: =210
+        Y: =528
+        ZIndex: =3
+
+    Label33 As label:
+        Text: ="Text"
+        X: =500
+        Y: =434
+        ZIndex: =4
+
+    Label34 As label:
+        Text: ="Text"
+        X: =680
+        Y: =434
+        ZIndex: =5
+
+    Label35 As label:
+        Text: ="Text"
+        X: =883
+        Y: =434
+        ZIndex: =6
+
+    Label36 As label:
+        Text: ="Text"
+        X: =1073
+        Y: =434
+        ZIndex: =7
 
