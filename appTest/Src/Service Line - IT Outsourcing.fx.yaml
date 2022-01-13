@@ -1,4 +1,6 @@
 "'Service Line - IT Outsourcing' As screen":
+    Height: =1080
+    Width: =1920
 
     Image2 As image:
         Height: =241

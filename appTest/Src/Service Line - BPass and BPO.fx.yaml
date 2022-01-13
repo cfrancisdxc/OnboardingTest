@@ -1,4 +1,6 @@
 "'Service Line - BPass and BPO' As screen":
+    Height: =1080
+    Width: =1920
 
     Label9 As label:
         Height: =52

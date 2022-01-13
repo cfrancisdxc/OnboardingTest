@@ -1,4 +1,6 @@
 "'Service Line - Analytics and Engineering' As screen":
+    Height: =1080
+    Width: =1920
 
     Label13 As label:
         Text: ="Analytics and Engineering"
