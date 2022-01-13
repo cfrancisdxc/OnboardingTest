@@ -12,6 +12,7 @@
     "Image3": 35,
     "Image4": 37,
     "Image5": 43,
+    "Image7": 50,
     "Jacob Screen": 24,
     "Label1": 32,
     "Label10": 6,
@@ -29,6 +30,12 @@
     "Label2": 31,
     "Label20": 47,
     "Label21": 48,
+    "Label22": 51,
+    "Label23": 52,
+    "Label24": 53,
+    "Label25": 54,
+    "Label26": 55,
+    "Label27": 56,
     "Label3": 15,
     "Label4": 38,
     "Label5": 39,
@@ -50,7 +57,7 @@
     "TextInput2": 23
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "01/13/2022 16:52:17",
+  "HeaderLastSavedDateTimeUTC": "01/13/2022 16:54:34",
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
     "app": "0001.PNG",
@@ -59,7 +66,8 @@
     "dataana": "0003.PNG",
     "DXC Logo 2C RGB": "0004.bmp",
     "it": "0005.PNG",
-    "ITOutsource": "0006.PNG"
+    "ITOutsource": "0006.PNG",
+    "Security": "e839d3b3-e8c3-4d5a-82b9-91d4c58e6539.PNG"
   },
   "LocalResourceRootPaths": {
     "app": "https://docserverpwaprodeus.blob.core.windows.net/b4664012-2d81-49e5-8bab-918bdb2c62f5-1/resource/Assets0Images00001.PNG?sv=2017-04-17&sr=b&sig=x%2BFEssOwoCxEeLgkybXoi0LxB2MoeWpN%2BazBtt%2BjZm4%3D&spr=https&se=2022-01-14T17%3A03%3A17Z&sp=r",
@@ -68,7 +76,8 @@
     "dataana": "https://docserverpwaprodeus.blob.core.windows.net/b4664012-2d81-49e5-8bab-918bdb2c62f5-1/resource/Assets0Images00003.PNG?sv=2017-04-17&sr=b&sig=%2BDkQBHIHrERwj36FHp6UFiFgDuwcbTeihZ1JU8fiplM%3D&spr=https&se=2022-01-14T17%3A03%3A17Z&sp=r",
     "DXC Logo 2C RGB": "https://docserverpwaprodeus.blob.core.windows.net/b4664012-2d81-49e5-8bab-918bdb2c62f5-1/resource/Assets0Images00004.bmp?sv=2017-04-17&sr=b&sig=tzggRQkDWJYU1iDW9pns2YKyzt6GD49ijJtf%2Bg9idfE%3D&spr=https&se=2022-01-14T17%3A03%3A17Z&sp=r",
     "it": "https://docserverpwaprodeus.blob.core.windows.net/b4664012-2d81-49e5-8bab-918bdb2c62f5-1/resource/Assets0Images00005.PNG?sv=2017-04-17&sr=b&sig=bx8kCy67On2DwxVStHtN6nqhM9Kwzz6%2BweuIwpRYFoE%3D&spr=https&se=2022-01-14T17%3A03%3A17Z&sp=r",
-    "ITOutsource": "https://docserverpwaprodeus.blob.core.windows.net/b4664012-2d81-49e5-8bab-918bdb2c62f5-1/resource/Assets0Images00006.PNG?sv=2017-04-17&sr=b&sig=2GoY%2FoAqU%2F5o3OLjfipPWJ0ywDFcN1b89Bls5sS8%2BEU%3D&spr=https&se=2022-01-14T17%3A03%3A17Z&sp=r"
+    "ITOutsource": "https://docserverpwaprodeus.blob.core.windows.net/b4664012-2d81-49e5-8bab-918bdb2c62f5-1/resource/Assets0Images00006.PNG?sv=2017-04-17&sr=b&sig=2GoY%2FoAqU%2F5o3OLjfipPWJ0ywDFcN1b89Bls5sS8%2BEU%3D&spr=https&se=2022-01-14T17%3A03%3A17Z&sp=r",
+    "Security": "https://docserverpwaprodeus.blob.core.windows.net/b4664012-2d81-49e5-8bab-918bdb2c62f5-1/resource/bb1cace0-d04b-45e6-96ea-357fc36665b7.PNG?sv=2017-04-17&sr=b&sig=d8zAaA61Ct5yYK3W4ibgPe3XQ46EuNT2F8%2FNodPDG9Y%3D&spr=https&se=2022-01-14T17%3A08%3A28Z&sp=r"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -95,6 +104,7 @@
     "Image3": 17,
     "Image4": 19,
     "Image5": 0,
+    "Image7": 0,
     "Jacob Screen": 6,
     "Label1": 14,
     "Label10": 28,
@@ -112,6 +122,12 @@
     "Label2": 13,
     "Label20": 0,
     "Label21": 0,
+    "Label22": 0,
+    "Label23": 0,
+    "Label24": 0,
+    "Label25": 0,
+    "Label26": 0,
+    "Label27": 0,
     "Label3": 37,
     "Label4": 20,
     "Label5": 21,
@@ -140,7 +156,8 @@
     "Image-DXC Logo 2C RGB": 4,
     "Image-it": 5,
     "Image-ITOutsource": 6,
-    "Image-SampleImage": 0
+    "Image-SampleImage": 0,
+    "Image-Security": 8
   },
   "TemplateVersions": {},
   "VolatileProperties": {
