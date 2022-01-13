@@ -1,2 +1,48 @@
 "'Service Line - Security' As screen":
+    Height: =1080
+    Width: =1920
+
+    Image7 As image:
+        Height: =156
+        Image: =Security
+        Width: =1178
+        X: =188
+        Y: =360
+        ZIndex: =1
+
+    Label22 As label:
+        Text: ="Security "
+        X: =172
+        Y: =93
+        ZIndex: =2
+
+    Label23 As label:
+        Text: ="Text"
+        X: =303
+        Y: =531
+        ZIndex: =3
+
+    Label24 As label:
+        Text: ="Text"
+        X: =554
+        Y: =531
+        ZIndex: =4
+
+    Label25 As label:
+        Text: ="Text"
+        X: =821
+        Y: =531
+        ZIndex: =5
+
+    Label26 As label:
+        Text: ="Text"
+        X: =1049
+        Y: =531
+        ZIndex: =6
+
+    Label27 As label:
+        Text: ="Overview"
+        X: =120
+        Y: =648
+        ZIndex: =7
 
