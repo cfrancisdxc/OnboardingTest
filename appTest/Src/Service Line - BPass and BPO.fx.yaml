@@ -1,2 +1,50 @@
 "'Service Line - BPass and BPO' As screen":
 
+    Label9 As label:
+        Height: =52
+        Text: ="Insurance BPaas and BPO"
+        Width: =191
+        X: =64
+        Y: =56
+        ZIndex: =1
+
+    Image1 As image:
+        Height: =204
+        Image: =bpas
+        Width: =874
+        X: =236
+        Y: =188
+        ZIndex: =2
+
+    Label10 As label:
+        Text: ="Text"
+        X: =255
+        Y: =356
+        ZIndex: =3
+
+    Label11 As label:
+        Text: ="Text"
+        X: =504
+        Y: =356
+        ZIndex: =4
+
+    Label11_1 As label:
+        Text: ="Text"
+        X: =701
+        Y: =356
+        ZIndex: =5
+
+    Label11_2 As label:
+        Text: ="Text"
+        X: =926
+        Y: =356
+        ZIndex: =6
+
+    Label12 As label:
+        Text: |-
+            ="Overview
+            "
+        X: =77
+        Y: =442
+        ZIndex: =7
+
