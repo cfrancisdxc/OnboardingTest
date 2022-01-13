@@ -2,3 +2,29 @@
     Height: =1080
     Width: =1920
 
+    Label28 As label:
+        Text: ="Cloud"
+        X: =174
+        Y: =81
+        ZIndex: =1
+
+    Image8 As image:
+        Height: =375
+        Image: =cloud
+        Width: =396
+        X: =570
+        Y: =348
+        ZIndex: =2
+
+    Label29 As label:
+        Text: ="Our Partners"
+        X: =638
+        Y: =276
+        ZIndex: =3
+
+    Label30 As label:
+        Text: ="Overview"
+        X: =174
+        Y: =728
+        ZIndex: =4
+

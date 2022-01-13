@@ -2,3 +2,17 @@
     Height: =1080
     Width: =1920
 
+    Image9 As image:
+        Height: =143
+        Image: =ModernWorkplace
+        Width: =400
+        X: =402
+        Y: =291
+        ZIndex: =1
+
+    Label31 As label:
+        Text: ="Modern Workplace"
+        X: =210
+        Y: =96
+        ZIndex: =2
+
