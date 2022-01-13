@@ -8,21 +8,26 @@
         ContentLanguage: |+
             =
             
-        Fill: =RGBA(109, 49, 162, 1)
+        Fill: =RGBA(95, 36, 159, 1)
         Height: =261
         LayoutDirection: =LayoutDirection.Vertical
         LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
+        PaddingLeft: =30
         Width: =1549
         X: =185.5
         Y: =96
         ZIndex: =1
 
         TextInput2 As text:
+            AlignInContainer: =AlignInContainer.Start
+            BorderColor: =RGBA(0, 0, 0, 0)
             Color: =RGBA(255, 255, 255, 1)
             Default: ="How-To Guides Template"
-            Fill: =RGBA(109, 49, 162, 1)
+            Fill: =RGBA(0, 0, 0, 0)
             FontWeight: =FontWeight.Bold
+            Height: =60
             Size: =40
+            Width: =800
             ZIndex: =1
 
