@@ -13,43 +13,19 @@
     "OverridableProperties": {},
     "Version": "1.0"
   },
-  "button": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/button",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": false,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": true,
-    "LastModifiedTimestamp": "0",
-    "Name": "button",
-    "OverridableProperties": {},
-    "Version": "2.1.0"
-  },
   "groupContainer": {
+    "CustomGroupControlTemplateName": "",
     "FirstParty": true,
     "Id": "http://microsoft.com/appmagic/groupContainer",
     "IsComponentTemplate": false,
-    "IsPcfControl": false,
-    "IsWidgetTemplate": false,
-    "LastModifiedTimestamp": "0",
-    "Name": "groupContainer",
-    "Version": "1.0"
-  },
-  "htmlViewer": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/htmlViewer",
-    "IsComponentTemplate": false,
     "IsCustomGroupControlTemplate": false,
     "IsPcfControl": false,
     "IsPremiumPcfControl": false,
     "IsWidgetTemplate": true,
     "LastModifiedTimestamp": "0",
-    "Name": "htmlViewer",
+    "Name": "groupContainer",
     "OverridableProperties": {},
-    "Version": "2.1.0"
+    "Version": "1.1.0"
   },
   "image": {
     "CustomGroupControlTemplateName": "",
