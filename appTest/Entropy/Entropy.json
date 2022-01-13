@@ -1,17 +1,71 @@
 {
   "ComponentIndexes": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Button1": 12,
+    "Container1": 4,
+    "FooterContainer1": 17,
+    "HeaderContainer1": 15,
+    "How-To Guides Template": 3,
+    "IT": 6,
+    "Jacob Screen": 13,
+    "Label1": 11,
+    "Label2": 9,
+    "Label3": 10,
+    "Label4": 5,
+    "Label5": 18,
+    "Main Landing Page": 7,
+    "MainSectionContainer1": 16,
+    "Screen1": 8,
+    "ScreenContainer1": 14
+  },
   "FunctionParamsInvariantScripts": {},
+  "HeaderLastSavedDateTimeUTC": "01/13/2022 16:13:50",
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "Collection1": 0
+  },
   "OrderGroupControls": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "PublishOrderIndices": {},
+  "OrderXMLTemplate": {
+    "button": 2,
+    "groupContainer": 0,
+    "label": 1
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "Button1": 11,
+    "Container1": 3,
+    "FooterContainer1": 0,
+    "HeaderContainer1": 0,
+    "How-To Guides Template": 2,
+    "IT": 5,
+    "Jacob Screen": 0,
+    "Label1": 10,
+    "Label2": 8,
+    "Label3": 9,
+    "Label4": 4,
+    "Label5": 0,
+    "Main Landing Page": 6,
+    "MainSectionContainer1": 0,
+    "Screen1": 7,
+    "ScreenContainer1": 0
+  },
   "ResourcesJsonIndices": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0934126,
+    "ControlCount": {
+      "button": 1,
+      "groupContainer": 1,
+      "label": 4,
+      "screen": 4
+    },
+    "DeserializationLoadTime": 0.5214209,
+    "ErrorCount": 5
+  }
 }
