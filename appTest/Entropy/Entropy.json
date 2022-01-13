@@ -1,17 +1,106 @@
 {
   "ComponentIndexes": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Button2": 5,
+    "FooterContainer1": 16,
+    "Header": 4,
+    "HeaderContainer1": 14,
+    "How-To Guides Template": 3,
+    "Image2": 8,
+    "Jacob Screen": 12,
+    "Label1": 20,
+    "Label2": 19,
+    "Label3": 9,
+    "Label4": 21,
+    "Label5": 7,
+    "Label6": 10,
+    "Label7": 11,
+    "Label8": 22,
+    "Main Landing Page": 17,
+    "MainSectionContainer1": 15,
+    "Screen1": 18,
+    "ScreenContainer1": 13,
+    "Service Line - Analytics and Engineering": 24,
+    "Service Line - Applications": 25,
+    "Service Line - BPass and BPO": 23,
+    "Service Line - Cloud": 27,
+    "Service Line - IT Outsourcing": 6,
+    "Service Line - Modern Workplace": 28,
+    "Service Line - Security": 26
+  },
   "FunctionParamsInvariantScripts": {},
+  "HeaderLastSavedDateTimeUTC": "01/13/2022 16:34:52",
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
+  "LocalResourceFileNames": {
+    "DXC Logo 2C RGB": "0001.bmp",
+    "it": "0002.PNG",
+    "ITOutsource": "0003.PNG"
+  },
+  "LocalResourceRootPaths": {
+    "DXC Logo 2C RGB": "https://docserverpwaprodeus.blob.core.windows.net/b4664012-2d81-49e5-8bab-918bdb2c62f5-1/resource/Assets0Images00001.bmp?sv=2017-04-17&sr=b&sig=YMBg3nGzIWCHDcAqMpv3X9tcJxeC6MPuk5tUPStgYg0%3D&spr=https&se=2022-01-14T16%3A42%3A25Z&sp=r",
+    "it": "https://docserverpwaprodeus.blob.core.windows.net/b4664012-2d81-49e5-8bab-918bdb2c62f5-1/resource/Assets0Images00002.PNG?sv=2017-04-17&sr=b&sig=e%2BUaXtLfbjDyjHPmrT1L3YfmdOZ%2BhoH4H86jjASebm4%3D&spr=https&se=2022-01-14T16%3A42%3A25Z&sp=r",
+    "ITOutsource": "https://docserverpwaprodeus.blob.core.windows.net/b4664012-2d81-49e5-8bab-918bdb2c62f5-1/resource/Assets0Images00003.PNG?sv=2017-04-17&sr=b&sig=rtwVZ0DDCwBAJPz55RnUwcCpHJK5syv94tUl4D0msS0%3D&spr=https&se=2022-01-14T16%3A42%3A25Z&sp=r"
+  },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "Collection1": 0
+  },
   "OrderGroupControls": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
-  "TemplateVersions": {}
+  "OrderXMLTemplate": {
+    "button": 1,
+    "groupContainer": 0,
+    "image": 3,
+    "label": 2
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "Button2": 4,
+    "FooterContainer1": 15,
+    "Header": 3,
+    "HeaderContainer1": 13,
+    "How-To Guides Template": 2,
+    "Image2": 7,
+    "Jacob Screen": 11,
+    "Label1": 19,
+    "Label2": 18,
+    "Label3": 8,
+    "Label4": 0,
+    "Label5": 6,
+    "Label6": 9,
+    "Label7": 10,
+    "Label8": 0,
+    "Main Landing Page": 16,
+    "MainSectionContainer1": 14,
+    "Screen1": 17,
+    "ScreenContainer1": 12,
+    "Service Line - Analytics and Engineering": 0,
+    "Service Line - Applications": 0,
+    "Service Line - BPass and BPO": 0,
+    "Service Line - Cloud": 0,
+    "Service Line - IT Outsourcing": 5,
+    "Service Line - Modern Workplace": 0,
+    "Service Line - Security": 0
+  },
+  "ResourcesJsonIndices": {
+    "Image-DXC Logo 2C RGB": 1,
+    "Image-it": 2,
+    "Image-ITOutsource": 3,
+    "Image-SampleImage": 0
+  },
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0638105,
+    "ControlCount": {
+      "button": 1,
+      "groupContainer": 5,
+      "image": 1,
+      "label": 6,
+      "screen": 5
+    },
+    "DeserializationLoadTime": 0.6923149,
+    "ErrorCount": 5
+  }
 }
