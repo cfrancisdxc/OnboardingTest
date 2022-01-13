@@ -2,19 +2,16 @@
   "ComponentIndexes": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Button1": 12,
     "Container1": 4,
     "How-To Guides Template": 3,
     "IT": 6,
-    "Label1": 11,
-    "Label2": 9,
-    "Label3": 10,
+    "Label1": 13,
     "Label4": 5,
     "Main Landing Page": 7,
     "Screen1": 8
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "01/13/2022 16:06:52",
+  "HeaderLastSavedDateTimeUTC": "01/13/2022 16:13:35",
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
@@ -26,19 +23,15 @@
   "OrderGroupControls": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 2,
     "groupContainer": 0,
     "label": 1
   },
   "PublishOrderIndices": {
     "App": 0,
-    "Button1": 11,
     "Container1": 3,
     "How-To Guides Template": 2,
     "IT": 5,
-    "Label1": 10,
-    "Label2": 8,
-    "Label3": 9,
+    "Label1": 0,
     "Label4": 4,
     "Main Landing Page": 6,
     "Screen1": 7
