@@ -11,7 +11,10 @@
         ZIndex: =1
 
         Button2 As button:
-            Text: ="Button"
+            OnSelect: |
+                =Navigate('Main Landing Page')
+            Text: ="Home Button"
+            Width: =220
             X: =819
             Y: =71
             ZIndex: =2
