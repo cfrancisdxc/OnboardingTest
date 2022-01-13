@@ -1,2 +1,16 @@
 "'Service Line - Analytics and Engineering' As screen":
 
+    Label13 As label:
+        Text: ="Analytics and Engineering"
+        X: =123
+        Y: =69
+        ZIndex: =1
+
+    Image3 As image:
+        Height: =132
+        Image: =dataana
+        Width: =631
+        X: =232
+        Y: =192
+        ZIndex: =2
+

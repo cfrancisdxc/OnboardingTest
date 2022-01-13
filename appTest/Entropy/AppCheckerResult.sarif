@@ -14,6 +14,43 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "How-To Guides Template.Header.LayoutDirection"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "How-To Guides Template.Header.LayoutDirection",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".Manual"
+                  }
+                }
+              },
+              "properties": {
+                "member": "LayoutDirection",
+                "module": "How-To Guides Template",
+                "type": "How-To Guides Template.Header"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Main Landing Page.OnVisible"
                 }
               ],
@@ -170,36 +207,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "How-To Guides Template.Container4.TextInput2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "How-To Guides Template.Container4.TextInput2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "How-To Guides Template",
-                "type": "How-To Guides Template.Container4.TextInput2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Screen1"
                 }
               ],
@@ -222,67 +229,7 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.DXC Logo 2C RGB"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.DXC Logo 2C RGB",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "DXC Logo 2C RGB",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.it"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.it",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "it",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 6
+          "ruleIndex": 4
         }
       ],
       "tool": {
@@ -353,23 +300,6 @@
               }
             },
             {
-              "id": "acc-AccessibleLabelNeeded",
-              "messageStrings": {
-                "issue": {
-                  "text": "Missing accessible label"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Edit the accessible label property to describe the item."
-                ],
-                "level": "Medium",
-                "primaryCategory": "accessibility",
-                "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
-              }
-            },
-            {
               "id": "acc-ReadableScreenNameNeeded",
               "messageStrings": {
                 "issue": {
@@ -384,23 +314,6 @@
                 "level": "Low",
                 "primaryCategory": "accessibility",
                 "whyFix": "People who are blind, have low vision, or a reading disability rely on screen titles to navigate using the screen reader. "
-              }
-            },
-            {
-              "id": "app-UnusedMediaResources",
-              "messageStrings": {
-                "issue": {
-                  "text": "Unused media files"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove the unused media file in the Media pane."
-                ],
-                "level": "Medium",
-                "primaryCategory": "performance",
-                "whyFix": "This media file is not referenced by any control formulas so it is not needed. Removing it will improve performance."
               }
             }
           ],
