@@ -1,67 +1,17 @@
 {
   "ComponentIndexes": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "Button1": 12,
-    "Container1": 4,
-    "How-To Guides Template": 3,
-    "IT": 6,
-    "Label1": 11,
-    "Label2": 9,
-    "Label3": 10,
-    "Label4": 5,
-    "Label5": 13,
-    "Main Landing Page": 7,
-    "Screen1": 8
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "01/13/2022 16:21:13",
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {
-    "DXC Logo 2C RGB": "676da50a-be9a-4dd7-b3fb-7c3d2ca73303.bmp"
-  },
-  "LocalResourceRootPaths": {
-    "DXC Logo 2C RGB": "https://docserverpwaprodeus.blob.core.windows.net/b4664012-2d81-49e5-8bab-918bdb2c62f5-1/resource/c7fcd49f-506b-46f3-931b-4329f8326cfc.bmp?sv=2017-04-17&sr=b&sig=Njyjw2%2Fk%2BvvlOTVSzlf1T5hKQy%2BbNK6jkGiL1tRi3l8%3D&spr=https&se=2022-01-14T16%3A34%3A13Z&sp=r"
-  },
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {
-    "Collection1": 0
-  },
+  "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "button": 2,
-    "groupContainer": 0,
-    "label": 1
-  },
-  "PublishOrderIndices": {
-    "App": 0,
-    "Button1": 11,
-    "Container1": 3,
-    "How-To Guides Template": 2,
-    "IT": 5,
-    "Label1": 10,
-    "Label2": 8,
-    "Label3": 9,
-    "Label4": 4,
-    "Label5": 0,
-    "Main Landing Page": 6,
-    "Screen1": 7
-  },
-  "ResourcesJsonIndices": {
-    "Image-DXC Logo 2C RGB": 0
-  },
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.1052184,
-    "ControlCount": {
-      "button": 1,
-      "groupContainer": 1,
-      "label": 4,
-      "screen": 4
-    },
-    "DeserializationLoadTime": 0.6382779,
-    "ErrorCount": 5
-  }
+  "OrderXMLTemplate": {},
+  "PublishOrderIndices": {},
+  "ResourcesJsonIndices": {},
+  "TemplateVersions": {}
 }
