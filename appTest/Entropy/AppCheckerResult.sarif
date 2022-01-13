@@ -14,12 +14,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "How-To Guides Template.Header.LayoutDirection"
+                  "fullyQualifiedName": "How-To Guides Template.Container1.LayoutDirection"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "How-To Guides Template.Header.LayoutDirection",
+                  "fullyQualifiedName": "How-To Guides Template.Container1.LayoutDirection",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -33,7 +33,7 @@
               "properties": {
                 "member": "LayoutDirection",
                 "module": "How-To Guides Template",
-                "type": "How-To Guides Template.Header"
+                "type": "How-To Guides Template.Container1"
               }
             }
           ],

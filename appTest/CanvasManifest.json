@@ -95,8 +95,14 @@
   "ScreenOrder": [
     "Screen1",
     "Main Landing Page",
-    "IT",
     "How-To Guides Template",
-    "Jacob Screen"
+    "Jacob Screen",
+    "Service Line - BPass and BPO",
+    "Service Line - Analytics and Engineering",
+    "Service Line - Applications",
+    "Service Line - Security",
+    "Service Line - Cloud",
+    "Service Line - IT Outsourcing",
+    "Service Line - Modern Workplace"
   ]
 }

@@ -16,10 +16,6 @@
             LayoutMode: =LayoutMode.Auto
             ZIndex: =2
 
-            Label5 As label:
-                Text: ="Test"
-                ZIndex: =1
-
         MainSectionContainer1 As groupContainer.verticalAutoLayoutContainer:
             LayoutDirection: =LayoutDirection.Vertical
             LayoutMinHeight: =100

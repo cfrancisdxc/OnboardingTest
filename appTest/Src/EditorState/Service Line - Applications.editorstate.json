@@ -1,5 +1,5 @@
 {
-  "IT": {
+  "Service Line - Applications": {
     "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Fill",
@@ -19,7 +19,7 @@
     "IsLocked": false,
     "LayoutName": "",
     "MetaDataIDKey": "",
-    "Name": "IT",
+    "Name": "Service Line - Applications",
     "ParentIndex": 0,
     "PersistMetaDataIDKey": false,
     "Properties": [
