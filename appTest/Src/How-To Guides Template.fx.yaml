@@ -1,24 +1,20 @@
 "'How-To Guides Template' As screen":
+    Height: =1080
+    Width: |
+        =1920
 
-    Header As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(95, 36, 159, 1)
-        Height: =182
-        LayoutDirection: =LayoutDirection.Manual
+    Container4 As groupContainer.verticalAutoLayoutContainer:
+        BorderColor: =RGBA(109, 49, 162, 1)
+        Fill: =RGBA(109, 49, 162, 1)
+        LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
-        Width: =1106
-        X: =128
-        Y: =60
+        Width: =1549
+        Y: =76
         ZIndex: =1
 
-        Button2 As button:
+        TextInput2 As text:
             Color: =RGBA(109, 49, 162, 1)
-            Fill: =RGBA(255, 255, 255, 1)
-            FontWeight: =FontWeight.Bold
-            OnSelect: |
-                =Navigate('Main Landing Page')
-            Text: ="Home"
-            Width: =220
-            X: =824
-            Y: =80
-            ZIndex: =2
+            Default: ="Text input"
+            Fill: =RGBA(109, 49, 162, 1)
+            ZIndex: =1
 
