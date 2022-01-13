@@ -1,0 +1,92 @@
+"'Jacob Service Line Screen' As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
+
+    InsuranceHeader As groupContainer.manualLayoutContainer:
+        Height: =130
+        Width: =1366
+        ZIndex: =1
+
+    InsuranceBody As groupContainer.manualLayoutContainer:
+        Height: =507
+        Width: =1366
+        Y: =130
+        ZIndex: =2
+
+        InsuranceTitle As groupContainer.manualLayoutContainer:
+            Height: =228
+            Width: =1366
+            ZIndex: =1
+
+            HtmlText2 As htmlViewer:
+                Height: =90
+                HtmlText: ="<h1> Insurance BPaas & BPO </h1>"
+                PaddingBottom: =0
+                PaddingLeft: =20
+                PaddingRight: =0
+                PaddingTop: =0
+                Width: =546
+                ZIndex: =1
+
+            InsuranceBanner As groupContainer.manualLayoutContainer:
+                Height: =145
+                Width: =1366
+                Y: =90
+                ZIndex: =2
+
+                InsuranceImage As image:
+                    Height: =145
+                    Image: =InsuranceBanner_1
+                    ImagePosition: =ImagePosition.Fill
+                    Width: =1366
+                    ZIndex: =1
+
+        InsuranceContent As groupContainer.manualLayoutContainer:
+            Height: =279
+            Width: =1366
+            Y: =228
+            ZIndex: =2
+
+            InsuranceIntro As groupContainer.manualLayoutContainer:
+                Height: =139
+                Width: =1366
+                Y: =140
+                ZIndex: =1
+
+                HtmlText4 As htmlViewer:
+                    Height: =139
+                    HtmlText: ="<p> The insurance/ BPO service line supports migrating businesses to a digital business model, with business process services; improving customer experience, optimising business processes, lowering costs and increasing agility. </p>"
+                    PaddingBottom: =0
+                    PaddingLeft: =30
+                    PaddingRight: =30
+                    PaddingTop: =0
+                    Width: =1366
+                    ZIndex: =1
+
+            Banking As groupContainer.manualLayoutContainer:
+                Height: =140
+                Width: =341
+                ZIndex: =2
+
+            Finance As groupContainer.manualLayoutContainer:
+                Height: =140
+                Width: =341
+                X: =341
+                ZIndex: =3
+
+            ContactCenter As groupContainer.manualLayoutContainer:
+                Height: =140
+                Width: =342
+                X: =682
+                ZIndex: =4
+
+            InsuranceSoftware As groupContainer.manualLayoutContainer:
+                Height: =140
+                Width: =342
+                X: =1024
+                ZIndex: =5
+
+    InsuranceFooter As groupContainer.manualLayoutContainer:
+        Height: =130
+        Width: =1366
+        Y: =638
+        ZIndex: =3
+

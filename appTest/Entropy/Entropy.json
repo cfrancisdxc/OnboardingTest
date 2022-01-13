@@ -1,17 +1,93 @@
 {
   "ComponentIndexes": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Banking": 46,
+    "Button2": 5,
+    "ContactCenter": 48,
+    "Finance": 47,
+    "Header": 4,
+    "How-To Guides Template": 3,
+    "HtmlText2": 23,
+    "HtmlText4": 50,
+    "InsuranceBanner": 38,
+    "InsuranceBody": 19,
+    "InsuranceContent": 40,
+    "InsuranceFooter": 21,
+    "InsuranceHeader": 18,
+    "InsuranceImage": 39,
+    "InsuranceIntro": 41,
+    "InsuranceSoftware": 49,
+    "InsuranceTitle": 22,
+    "IT": 6,
+    "Jacob Service Line Screen": 7,
+    "Label1": 15,
+    "Main Landing Page": 13,
+    "Screen1": 14
+  },
   "FunctionParamsInvariantScripts": {},
+  "HeaderLastSavedDateTimeUTC": "01/13/2022 17:40:15",
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
+  "LocalResourceFileNames": {
+    "InsuranceBanner_1": "adc04aaa-e84b-47a6-b933-829737b60cf3.jpg"
+  },
+  "LocalResourceRootPaths": {
+    "InsuranceBanner_1": "https://docserverpwaprodeus.blob.core.windows.net/6b7a55c2-7a69-424f-a131-e46aa2338941-1/resource/e2bb4302-e2a1-4179-ae3f-c0eec485396a.jpg?sv=2017-04-17&sr=b&sig=nSyl%2F0n%2By9DNLsUvB7%2FppYc0vdSVTaeIgQRgLP2aUMg%3D&spr=https&se=2022-01-14T17%3A25%3A58Z&sp=r"
+  },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "Collection1": 0
+  },
   "OrderGroupControls": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
-  "TemplateVersions": {}
+  "OrderXMLTemplate": {
+    "button": 1,
+    "groupContainer": 0,
+    "htmlViewer": 2,
+    "image": 3,
+    "label": 4
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "Banking": 10,
+    "Button2": 2,
+    "ContactCenter": 12,
+    "Finance": 11,
+    "Header": 1,
+    "How-To Guides Template": 2,
+    "HtmlText2": 6,
+    "HtmlText4": 15,
+    "InsuranceBanner": 7,
+    "InsuranceBody": 4,
+    "InsuranceContent": 9,
+    "InsuranceFooter": 16,
+    "InsuranceHeader": 3,
+    "InsuranceImage": 8,
+    "InsuranceIntro": 14,
+    "InsuranceSoftware": 13,
+    "InsuranceTitle": 5,
+    "IT": 5,
+    "Jacob Service Line Screen": 6,
+    "Label1": 0,
+    "Main Landing Page": 12,
+    "Screen1": 13
+  },
+  "ResourcesJsonIndices": {
+    "Image-InsuranceBanner_1": 1,
+    "Image-SampleImage": 0
+  },
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0486368,
+    "ControlCount": {
+      "button": 1,
+      "groupContainer": 9,
+      "image": 1,
+      "label": 2,
+      "screen": 5
+    },
+    "DeserializationLoadTime": 0.4538114,
+    "ErrorCount": 5
+  }
 }
