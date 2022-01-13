@@ -34,3 +34,15 @@
         Y: =415
         ZIndex: =8
 
+    Label20 As label:
+        Text: ="IT Outsourcing"
+        X: =135
+        Y: =72
+        ZIndex: =9
+
+    Label21 As label:
+        Text: ="Text"
+        X: =434
+        Y: =325
+        ZIndex: =10
+
