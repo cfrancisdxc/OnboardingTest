@@ -1,18 +1,33 @@
 "'How-To Guides Template' As screen":
+    Height: =1080
+    Width: |
+        =1920
 
-    Header As groupContainer.manualLayoutContainer:
+    Container4 As groupContainer.verticalAutoLayoutContainer:
+        BorderColor: =RGBA(95, 36, 159, 1)
+        ContentLanguage: |+
+            =
+            
         Fill: =RGBA(95, 36, 159, 1)
-        Height: =182
-        LayoutDirection: =LayoutDirection.Manual
+        Height: =261
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
-        Width: =1106
-        X: =128
-        Y: =60
+        PaddingLeft: =30
+        Width: =1549
+        X: =185.5
+        Y: =96
         ZIndex: =1
 
-        Button2 As button:
-            Text: ="Button"
-            X: =819
-            Y: =71
-            ZIndex: =2
+        TextInput2 As text:
+            AlignInContainer: =AlignInContainer.Start
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Color: =RGBA(255, 255, 255, 1)
+            Default: ="How-To Guides Template"
+            Fill: =RGBA(0, 0, 0, 0)
+            FontWeight: =FontWeight.Bold
+            Height: =60
+            Size: =40
+            Width: =800
+            ZIndex: =1
 

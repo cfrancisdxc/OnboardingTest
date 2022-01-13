@@ -1,0 +1,30 @@
+"'Service Line - Analytics and Engineering' As screen":
+    Height: =1080
+    Width: =1920
+
+    Label13 As label:
+        Text: ="Analytics and Engineering"
+        X: =123
+        Y: =69
+        ZIndex: =1
+
+    Image3 As image:
+        Height: =132
+        Image: =dataana
+        Width: =631
+        X: =232
+        Y: =192
+        ZIndex: =2
+
+    Label37 As label:
+        Text: ="Text"
+        X: =379
+        Y: =324
+        ZIndex: =3
+
+    Label38 As label:
+        Text: ="Text"
+        X: =617
+        Y: =324
+        ZIndex: =4
+

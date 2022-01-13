@@ -1,0 +1,30 @@
+"'Aspect Ratio Template' As screen":
+    Height: =1080
+    Width: =1920
+
+    Image5 As image:
+        Height: =311
+        Image: =cloud
+        Width: =313
+        X: =699
+        Y: =288
+        ZIndex: =1
+
+    Label17 As label:
+        Text: ="Cloud"
+        X: =248
+        Y: =94
+        ZIndex: =2
+
+    Label18 As label:
+        Text: ="Our Partners"
+        X: =780
+        Y: =248
+        ZIndex: =3
+
+    Label19 As label:
+        Text: ="Overview"
+        X: =288
+        Y: =694
+        ZIndex: =4
+

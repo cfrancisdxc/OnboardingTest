@@ -1,0 +1,30 @@
+"'Service Line - Applications' As screen":
+    Height: =1080
+    Width: =1920
+
+    Image4 As image:
+        Height: =305
+        Image: =app
+        Width: =924
+        X: =447
+        Y: =321
+        ZIndex: =1
+
+    Label14 As label:
+        Text: ="Text"
+        X: =834
+        Y: =566
+        ZIndex: =4
+
+    Label15 As label:
+        Text: ="Text"
+        X: =1135
+        Y: =566
+        ZIndex: =5
+
+    Label16 As label:
+        Text: ="Overview"
+        X: =190
+        Y: =668
+        ZIndex: =6
+
