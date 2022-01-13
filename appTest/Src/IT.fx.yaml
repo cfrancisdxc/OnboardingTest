@@ -27,12 +27,6 @@ IT As screen:
         Y: =325
         ZIndex: =3
 
-    Label4 As label:
-        Text: ="Text"
-        X: =430
-        Y: =325
-        ZIndex: =4
-
     Label6 As label:
         Text: ="Text"
         X: =635
