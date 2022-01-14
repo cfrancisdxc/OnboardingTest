@@ -11,19 +11,19 @@
         ZIndex: =2
 
     Label3 As label:
-        Text: ="Text"
+        Text: ="Compute and Data Centre"
         X: =233
         Y: =325
         ZIndex: =3
 
     Label6 As label:
-        Text: ="Text"
+        Text: ="Network"
         X: =635
         Y: =325
         ZIndex: =5
 
     Label7 As label:
-        Text: ="Text"
+        Text: ="More Info"
         X: =840
         Y: =325
         ZIndex: =6
@@ -41,8 +41,16 @@
         ZIndex: =9
 
     Label21 As label:
-        Text: ="Text"
+        Text: ="Storage and Backup"
         X: =434
         Y: =325
         ZIndex: =10
+
+    Label45 As label:
+        Height: =98
+        Text: ="The Applications service-line provides insights and expertise around simplifying, modernising and accelerating mission-critical applications that support business agility and growth. Within applications, DXC offer applications modernisation, enterprise applications & SaaS, custom & managed apps and testing/ digital assurance.  "
+        Width: =636
+        X: =66
+        Y: =511
+        ZIndex: =11
 

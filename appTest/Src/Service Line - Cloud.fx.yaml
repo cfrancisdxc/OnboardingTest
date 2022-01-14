@@ -12,19 +12,33 @@
         Height: =375
         Image: =cloud
         Width: =396
-        X: =570
-        Y: =348
+        X: =515
+        Y: =277
         ZIndex: =2
 
     Label29 As label:
         Text: ="Our Partners"
         X: =638
-        Y: =276
+        Y: =198
         ZIndex: =3
 
     Label30 As label:
         Text: ="Overview"
-        X: =174
-        Y: =728
+        X: =198
+        Y: =624
         ZIndex: =4
+
+    Label43 As label:
+        Height: =77
+        Text: ="Business demands for applications that are industry relevant, accessible and future-ready call for faster and more agile cloud-based platforms.​DXC Cloud Platform services provide the foundation for cloud-based business solutions with fully integrated, automated and self-governing services from infrastructure through application layers. Our services include SAP and managed container services to optimize business applications and help you gain the advantages of cloud."
+        Width: =590
+        X: =234
+        Y: =691
+        ZIndex: =5
+
+    Label44 As label:
+        Text: ="More Info"
+        X: =1002
+        Y: =728
+        ZIndex: =6
 

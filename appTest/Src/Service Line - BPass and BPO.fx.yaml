@@ -19,25 +19,25 @@
         ZIndex: =2
 
     Label10 As label:
-        Text: ="Text"
+        Text: ="Banking BPO"
         X: =255
         Y: =356
         ZIndex: =3
 
     Label11 As label:
-        Text: ="Text"
+        Text: ="Finance & Accounting"
         X: =504
         Y: =356
         ZIndex: =4
 
     Label11_1 As label:
-        Text: ="Text"
+        Text: ="Contact Center Experience"
         X: =701
         Y: =356
         ZIndex: =5
 
     Label11_2 As label:
-        Text: ="Text"
+        Text: ="Insurance Software"
         X: =926
         Y: =356
         ZIndex: =6
@@ -49,4 +49,12 @@
         X: =77
         Y: =442
         ZIndex: =7
+
+    Label42 As label:
+        Height: =158
+        Text: ="The insurance/ BPO service line supports migrating businesses to a digital business model, with business process services; improving customer experience, optimising business processes, lowering costs and increasing agility."
+        Width: =482
+        X: =77
+        Y: =497
+        ZIndex: =8
 
