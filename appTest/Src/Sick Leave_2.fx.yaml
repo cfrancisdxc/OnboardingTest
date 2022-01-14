@@ -1,0 +1,44 @@
+"'Sick Leave_2' As screen":
+    Height: =1080
+    Width: |
+        =1920
+
+    Container4_8 As groupContainer.verticalAutoLayoutContainer:
+        BorderColor: =RGBA(95, 36, 159, 1)
+        ContentLanguage: |+
+            =
+            
+        Fill: =RGBA(95, 36, 159, 1)
+        Height: =261
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutJustifyContent: =LayoutJustifyContent.Center
+        LayoutMode: =LayoutMode.Auto
+        PaddingLeft: =30
+        Width: =1549
+        X: =185.5
+        Y: =96
+        ZIndex: =1
+
+        TextInput2_8 As text:
+            AlignInContainer: =AlignInContainer.Start
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Color: =RGBA(255, 255, 255, 1)
+            Default: ="How-To Guides Template"
+            Fill: =RGBA(0, 0, 0, 0)
+            FontWeight: =FontWeight.Bold
+            Height: =60
+            Size: =40
+            Width: =800
+            ZIndex: =2
+
+    Button3_7 As button:
+        Color: =RGBA(95, 36, 159, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =92
+        OnSelect: =Navigate('Main Landing Page')
+        Text: ="Home"
+        Width: =232
+        X: =1365
+        Y: =165
+        ZIndex: =2
+
