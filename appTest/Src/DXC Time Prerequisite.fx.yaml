@@ -53,6 +53,8 @@
     Button4 As button:
         Fill: =RGBA(95, 36, 159, 1)
         Height: =70
+        OnSelect: |-
+            =Launch("https://dxc.com/content/dam/dxc/projects/dxc-com/us/pdfs/about-us/leadership-and-governance/DXC-Code-of-Conduct.pdf")
         Text: ="Code of Conduct"
         Width: =302
         X: =1332
