@@ -42,37 +42,35 @@
         Y: =165
         ZIndex: =2
 
-    Label48_1 As label:
-        Height: =70
-        Text: ="Prerequisite - Before launching the DXC Time tool, be sure to read the Code of Conduct (Page 20) on why booking time is important -"
-        Width: =1194
-        X: =171
-        Y: =404
+    Label50 As label:
+        Text: ="DXC Time Tool -"
+        X: =185
+        Y: =472
         ZIndex: =3
 
-    Button4_1 As button:
-        Fill: =RGBA(95, 36, 159, 1)
-        Height: =70
-        Text: ="Code of Conduct"
-        Width: =302
-        X: =1332
-        Y: =390
+    Label51 As label:
+        Height: =48
+        Text: ="DXC Time Overview - "
+        Width: =186
+        X: =185
+        Y: =540
         ZIndex: =4
 
-    Checkbox1_1 As checkbox:
-        Height: =104
-        Text: ="Confirm that you have read the code of conduct Timekeeping and Other Cost charging section"
-        Width: =838
-        X: =171
-        Y: =558
+    Button6 As button:
+        Fill: =RGBA(95, 36, 159, 1)
+        OnSelect: |-
+            =Launch("https://dxctime.dxc.com")
+        Text: ="Launch"
+        X: =400
+        Y: =472
         ZIndex: =5
 
-    Button5_1 As button:
+    Button7 As button:
         Fill: =RGBA(95, 36, 159, 1)
-        Height: =84
-        Text: ="Continue"
-        Width: =194
-        X: =138
-        Y: =678
+        OnSelect: |-
+            =Launch("https://dxcportal.sharepoint.com/sites/DXCTimeHub/SitePages/DXC-Time-Home.aspx")
+        Text: ="Overview"
+        X: =400
+        Y: =540
         ZIndex: =6
 
