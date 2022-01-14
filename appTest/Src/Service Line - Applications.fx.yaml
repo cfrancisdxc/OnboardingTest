@@ -6,25 +6,39 @@
         Height: =305
         Image: =app
         Width: =924
-        X: =447
-        Y: =321
+        X: =312
+        Y: =232
         ZIndex: =1
 
     Label14 As label:
-        Text: ="Text"
-        X: =834
-        Y: =566
+        Text: ="Enterprise Applications and SaaS"
+        X: =714
+        Y: =482
         ZIndex: =4
 
     Label15 As label:
-        Text: ="Text"
-        X: =1135
-        Y: =566
+        Text: ="Custom Applications"
+        X: =1025
+        Y: =482
         ZIndex: =5
 
     Label16 As label:
         Text: ="Overview"
-        X: =190
-        Y: =668
+        X: =247
+        Y: =537
         ZIndex: =6
+
+    Label39 As label:
+        Text: ="Applications Modernisation"
+        X: =382
+        Y: =482
+        ZIndex: =7
+
+    Label40 As label:
+        Height: =145
+        Text: ="The Applications service-line provides insights and expertise around simplifying, modernising and accelerating mission-critical applications that support business agility and growth. Within applications, DXC offer applications modernisation, enterprise applications & SaaS, custom & managed apps and testing/ digital assurance.  "
+        Width: =942
+        X: =262
+        Y: =577
+        ZIndex: =8
 

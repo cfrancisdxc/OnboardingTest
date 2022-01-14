@@ -17,14 +17,28 @@
         ZIndex: =2
 
     Label37 As label:
-        Text: ="Text"
+        Text: ="Data & Analytics"
         X: =379
         Y: =324
         ZIndex: =3
 
     Label38 As label:
-        Text: ="Text"
+        Text: ="Design and Engineering"
         X: =617
         Y: =324
         ZIndex: =4
+
+    Label4 As label:
+        Text: ="Overview"
+        X: =205
+        Y: =454
+        ZIndex: =5
+
+    Label5 As label:
+        Height: =145
+        Text: ="The Analytics/ Engineering services empower you to use data, design thinking and agile software development to embrace and overcome complex operational and technological challenges. Analytics, AI, design thinking and innovative UX are used in Analytics/ Engineering. "
+        Width: =940
+        X: =150
+        Y: =494
+        ZIndex: =6
 
