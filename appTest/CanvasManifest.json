@@ -95,6 +95,11 @@
   "ScreenOrder": [
     "Aspect Ratio Template",
     "How-To Guides Template",
+    "DXC Time Prerequisite",
+    "DXC Time",
+    "IT Help Desk",
+    "Amex Card",
+    "Teams Phone Request",
     "Main Landing Page",
     "Screen1",
     "Service Line - Analytics and Engineering",
@@ -103,6 +108,7 @@
     "Service Line - Cloud",
     "Service Line - IT Outsourcing",
     "Service Line - Modern Workplace",
-    "Service Line - Security"
+    "Service Line - Security",
+    "How-To Guides Images"
   ]
 }

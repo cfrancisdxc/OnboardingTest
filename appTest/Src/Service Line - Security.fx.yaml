@@ -17,25 +17,25 @@
         ZIndex: =2
 
     Label23 As label:
-        Text: ="Text"
+        Text: ="Security Risk Management"
         X: =303
         Y: =531
         ZIndex: =3
 
     Label24 As label:
-        Text: ="Text"
+        Text: ="Secured Infrastructure"
         X: =554
         Y: =531
         ZIndex: =4
 
     Label25 As label:
-        Text: ="Text"
+        Text: ="Cyber Defence"
         X: =821
         Y: =531
         ZIndex: =5
 
     Label26 As label:
-        Text: ="Text"
+        Text: ="Digital Identity"
         X: =1049
         Y: =531
         ZIndex: =6
@@ -45,4 +45,12 @@
         X: =120
         Y: =648
         ZIndex: =7
+
+    Label47 As label:
+        Height: =80
+        Text: ="The DXC Security service line allows organisations to assess risk and address an umbrella of facets of a security environment. This is aided with proven methodologies, automation and relationships with industry-leading partners."
+        Width: =644
+        X: =99
+        Y: =688
+        ZIndex: =8
 

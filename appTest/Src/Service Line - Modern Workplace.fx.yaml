@@ -23,26 +23,34 @@
         ZIndex: =3
 
     Label33 As label:
-        Text: ="Text"
+        Text: ="Modern Device Management"
         X: =500
         Y: =434
         ZIndex: =4
 
     Label34 As label:
-        Text: ="Text"
+        Text: ="Digital Support Services"
         X: =680
         Y: =434
         ZIndex: =5
 
     Label35 As label:
-        Text: ="Text"
+        Text: ="Workplace Asset Management"
         X: =883
         Y: =434
         ZIndex: =6
 
     Label36 As label:
-        Text: ="Text"
+        Text: ="Intelligent Collaboration"
         X: =1073
         Y: =434
         ZIndex: =7
+
+    Label46 As label:
+        Height: =148
+        Text: ="The DXC modern workplace enables employees to easily find, understand and engage with IT and their colleagues. Our solution centralises all workplace services, such as, device management, collaboration, digital support and asset management."
+        Width: =630
+        X: =183
+        Y: =549
+        ZIndex: =8
 

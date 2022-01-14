@@ -1,0 +1,78 @@
+"'DXC Time' As screen":
+    Height: =1080
+    Width: |
+        =1920
+
+    Container4_2 As groupContainer.verticalAutoLayoutContainer:
+        BorderColor: =RGBA(95, 36, 159, 1)
+        ContentLanguage: |+
+            =
+            
+        Fill: =RGBA(95, 36, 159, 1)
+        Height: =261
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutJustifyContent: =LayoutJustifyContent.Center
+        LayoutMode: =LayoutMode.Auto
+        PaddingLeft: =30
+        Width: =1549
+        X: =185.5
+        Y: =96
+        ZIndex: =1
+
+        TextInput2_2 As text:
+            AlignInContainer: =AlignInContainer.Start
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Color: =RGBA(255, 255, 255, 1)
+            Default: ="How-To Guides Template"
+            Fill: =RGBA(0, 0, 0, 0)
+            FontWeight: =FontWeight.Bold
+            Height: =60
+            Size: =40
+            Width: =800
+            ZIndex: =2
+
+    Button3_1 As button:
+        Color: =RGBA(95, 36, 159, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =92
+        OnSelect: =Navigate('Main Landing Page')
+        Text: ="Home"
+        Width: =232
+        X: =1365
+        Y: =165
+        ZIndex: =2
+
+    Label48_1 As label:
+        Height: =70
+        Text: ="Prerequisite - Before launching the DXC Time tool, be sure to read the Code of Conduct (Page 20) on why booking time is important -"
+        Width: =1194
+        X: =171
+        Y: =404
+        ZIndex: =3
+
+    Button4_1 As button:
+        Fill: =RGBA(95, 36, 159, 1)
+        Height: =70
+        Text: ="Code of Conduct"
+        Width: =302
+        X: =1332
+        Y: =390
+        ZIndex: =4
+
+    Checkbox1_1 As checkbox:
+        Height: =104
+        Text: ="Confirm that you have read the code of conduct Timekeeping and Other Cost charging section"
+        Width: =838
+        X: =171
+        Y: =558
+        ZIndex: =5
+
+    Button5_1 As button:
+        Fill: =RGBA(95, 36, 159, 1)
+        Height: =84
+        Text: ="Continue"
+        Width: =194
+        X: =138
+        Y: =678
+        ZIndex: =6
+
