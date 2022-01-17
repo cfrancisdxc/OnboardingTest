@@ -2,20 +2,12 @@
     Height: =1080
     Width: =1920
 
-    Label9 As label:
-        Height: =52
-        Text: ="Insurance BPaas and BPO"
-        Width: =191
-        X: =64
-        Y: =56
-        ZIndex: =1
-
     Image1 As image:
         Height: =254
         Image: =bpas
         Width: =1099
-        X: =267
-        Y: =175
+        X: =237
+        Y: =255
         ZIndex: =2
 
     Label12 As label:
@@ -25,7 +17,7 @@
             "
         Width: =231
         X: =77
-        Y: =429
+        Y: =574
         ZIndex: =7
 
     Label42 As label:
@@ -33,7 +25,7 @@
         Text: ="The insurance/ BPO service line supports migrating businesses to a digital business model, with business process services; improving customer experience, optimising business processes, lowering costs and increasing agility."
         Width: =1087
         X: =77
-        Y: =482
+        Y: =595
         ZIndex: =8
 
     Button1 As button:
@@ -43,8 +35,8 @@
         OnSelect: |-
             =Launch("https://dxc.com/us/en/services/insurance-bpaas-and-bpo/banking-bpo")
         Text: ="Banking BPO"
-        X: =308
-        Y: =371
+        X: =276
+        Y: =444
         ZIndex: =9
 
     Button1_1 As button:
@@ -53,8 +45,8 @@
         Height: =73
         Text: ="Finance & Accounting"
         Width: =201
-        X: =590
-        Y: =371
+        X: =578
+        Y: =444
         ZIndex: =10
 
     Button1_2 As button:
@@ -62,8 +54,8 @@
         Fill: =RGBA(255, 255, 255, 1)
         Height: =73
         Text: ="Insurance Software"
-        X: =1164
-        Y: =371
+        X: =1130
+        Y: =444
         ZIndex: =11
 
     Button1_3 As button:
@@ -71,7 +63,31 @@
         Fill: =RGBA(255, 255, 255, 1)
         Height: =73
         Text: ="Contact Center Experience"
-        X: =865
-        Y: =371
+        X: =858
+        Y: =444
         ZIndex: =12
+
+    Container4_11 As groupContainer.verticalAutoLayoutContainer:
+        BorderColor: =RGBA(95, 36, 159, 1)
+        ContentLanguage: |+
+            =
+            
+        Fill: =RGBA(95, 36, 159, 1)
+        Height: =261
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutJustifyContent: =LayoutJustifyContent.Center
+        LayoutMode: =LayoutMode.Auto
+        PaddingLeft: =30
+        Width: =1412
+        Y: =18
+        ZIndex: =13
+
+        Label13_1 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =70
+            Size: =40
+            Text: ="Insurance BPass and BPO"
+            Width: =800
+            ZIndex: =3
 

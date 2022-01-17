@@ -60,8 +60,9 @@
         ZIndex: =7
 
         Label13 As label:
+            Color: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Bold
-            Height: =50
+            Height: =70
             Size: =40
             Text: ="Analytics and Engineering"
             Width: =800

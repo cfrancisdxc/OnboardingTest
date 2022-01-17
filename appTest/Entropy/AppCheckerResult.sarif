@@ -530,36 +530,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "How-To Guides Template.Container4.TextInput2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "How-To Guides Template.Container4.TextInput2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "How-To Guides Template",
-                "type": "How-To Guides Template.Container4.TextInput2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Teams Phone Request.Container4_5.TextInput2_5.AccessibleLabel"
                 }
               ],
