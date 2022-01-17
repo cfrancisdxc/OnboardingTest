@@ -21,6 +21,7 @@
 
         Label17 As label:
             Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
             Height: =70
             Size: =40
             Text: ="DXC Time"

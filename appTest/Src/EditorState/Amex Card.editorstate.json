@@ -502,20 +502,20 @@
     "StyleName": "",
     "Type": "ControlInfo"
   },
-  "TextInput2_4": {
+  "Label19": {
     "AllowAccessToGlobals": true,
     "ControlPropertyState": [
-      "Default",
-      "Mode",
-      "Format",
-      "VirtualKeyboardMode",
-      "DelayOutput",
-      "BorderColor",
-      "DisabledBorderColor",
-      "PressedBorderColor",
-      "HoverBorderColor",
-      "BorderStyle",
-      "FocusedBorderColor",
+      "Live",
+      "Overflow",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "\"Text\"",
+        "InvariantPropertyName": "Text",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      "Role",
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
@@ -527,36 +527,65 @@
       "DisabledColor",
       "PressedColor",
       "HoverColor",
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "",
-        "InvariantPropertyName": "Fill",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
+      "BorderColor",
+      "DisabledBorderColor",
+      "PressedBorderColor",
+      "HoverBorderColor",
+      "BorderStyle",
+      "FocusedBorderColor",
+      "Fill",
       "DisabledFill",
       "PressedFill",
       "HoverFill",
       "Font",
-      "FontWeight",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "FontWeight",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "Align",
+      "VerticalAlign",
       "X",
       "Y",
-      "Width",
-      "Height",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "Width",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "Height",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "DisplayMode",
       "ZIndex",
-      "RadiusTopLeft",
-      "RadiusTopRight",
-      "RadiusBottomLeft",
-      "RadiusBottomRight",
+      "LineHeight",
       "BorderThickness",
       "FocusedBorderThickness",
-      "Size",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "Size",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "Italic",
       "Underline",
-      "Strikethrough"
+      "Strikethrough",
+      "PaddingTop",
+      "PaddingRight",
+      "PaddingBottom",
+      "PaddingLeft"
     ],
     "DynamicProperties": [
       {
@@ -605,33 +634,48 @@
     "IsLocked": false,
     "LayoutName": "",
     "MetaDataIDKey": "",
-    "Name": "TextInput2_4",
+    "Name": "Label19",
     "ParentIndex": 0,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
         "Category": "Data",
-        "PropertyName": "Default",
+        "PropertyName": "Live",
         "RuleProviderType": "Unknown"
       },
       {
         "Category": "Data",
-        "PropertyName": "DelayOutput",
+        "PropertyName": "Text",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "Role",
         "RuleProviderType": "Unknown"
       },
       {
         "Category": "Design",
-        "PropertyName": "Mode",
+        "PropertyName": "Overflow",
         "RuleProviderType": "Unknown"
       },
       {
         "Category": "Design",
-        "PropertyName": "Format",
+        "PropertyName": "Color",
         "RuleProviderType": "Unknown"
       },
       {
         "Category": "Design",
-        "PropertyName": "VirtualKeyboardMode",
+        "PropertyName": "DisabledColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "PressedColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "HoverColor",
         "RuleProviderType": "Unknown"
       },
       {
@@ -662,26 +706,6 @@
       {
         "Category": "Design",
         "PropertyName": "FocusedBorderColor",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "Color",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "DisabledColor",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "PressedColor",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "HoverColor",
         "RuleProviderType": "Unknown"
       },
       {
@@ -721,6 +745,11 @@
       },
       {
         "Category": "Design",
+        "PropertyName": "VerticalAlign",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
         "PropertyName": "X",
         "RuleProviderType": "Unknown"
       },
@@ -751,22 +780,7 @@
       },
       {
         "Category": "Design",
-        "PropertyName": "RadiusTopLeft",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "RadiusTopRight",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "RadiusBottomLeft",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "RadiusBottomRight",
+        "PropertyName": "LineHeight",
         "RuleProviderType": "Unknown"
       },
       {
@@ -798,9 +812,29 @@
         "Category": "Design",
         "PropertyName": "Strikethrough",
         "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "PaddingTop",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "PaddingRight",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "PaddingBottom",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "PaddingLeft",
+        "RuleProviderType": "Unknown"
       }
     ],
-    "StyleName": "defaultTextStyle",
+    "StyleName": "defaultLabelStyle",
     "Type": "ControlInfo"
   }
 }

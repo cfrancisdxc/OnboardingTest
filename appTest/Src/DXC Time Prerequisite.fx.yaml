@@ -3,17 +3,6 @@
     Width: |
         =1920
 
-    Button3 As button:
-        Color: =RGBA(95, 36, 159, 1)
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =92
-        OnSelect: =Navigate('Main Landing Page')
-        Text: ="Home"
-        Width: =232
-        X: =1365
-        Y: =165
-        ZIndex: =2
-
     Label48 As label:
         Height: =70
         Text: ="Prerequisite - Before launching the DXC Time tool, be sure to read the Code of Conduct (Page 20) on why booking time is important -"
@@ -63,7 +52,7 @@
         LayoutMode: =LayoutMode.Auto
         PaddingLeft: =30
         Width: =1412
-        Y: =31
+        Y: =24
         ZIndex: =7
 
         Label13_3 As label:
@@ -71,7 +60,18 @@
             FontWeight: =FontWeight.Bold
             Height: =70
             Size: =40
-            Text: ="How-To Guides Template"
+            Text: ="DXC Time"
             Width: =800
             ZIndex: =3
+
+    Button3_9 As button:
+        Color: =RGBA(95, 36, 159, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =92
+        OnSelect: =Navigate('Main Landing Page')
+        Text: ="Home"
+        Width: =232
+        X: =1009
+        Y: =108
+        ZIndex: =8
 
