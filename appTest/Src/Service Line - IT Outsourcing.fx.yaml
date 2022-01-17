@@ -5,28 +5,10 @@
     Image2 As image:
         Height: =241
         Image: =ITOutsource
-        Width: =774
+        Width: =1070
         X: =216
         Y: =124
         ZIndex: =2
-
-    Label3 As label:
-        Text: ="Compute and Data Centre"
-        X: =233
-        Y: =325
-        ZIndex: =3
-
-    Label6 As label:
-        Text: ="Network"
-        X: =635
-        Y: =325
-        ZIndex: =5
-
-    Label7 As label:
-        Text: ="More Info"
-        X: =840
-        Y: =325
-        ZIndex: =6
 
     Label8 As label:
         Text: ="Overview"
@@ -40,17 +22,51 @@
         Y: =72
         ZIndex: =9
 
-    Label21 As label:
-        Text: ="Storage and Backup"
-        X: =434
-        Y: =325
-        ZIndex: =10
-
     Label45 As label:
-        Height: =98
+        Height: =140
         Text: ="The Applications service-line provides insights and expertise around simplifying, modernising and accelerating mission-critical applications that support business agility and growth. Within applications, DXC offer applications modernisation, enterprise applications & SaaS, custom & managed apps and testing/ digital assurance.  "
-        Width: =636
+        Width: =848
         X: =66
-        Y: =511
+        Y: =469
         ZIndex: =11
+
+    Button3 As button:
+        Fill: =RGBA(95, 36, 159, 1)
+        Height: =58
+        OnSelect: |-
+            =Launch("https://dxc.com/us/en/services/it-outsourcing/compute-and-data-center")
+        Text: ="Compute and Data Centre"
+        X: =260
+        Y: =365
+        ZIndex: =12
+
+    Button3_10 As button:
+        Fill: =RGBA(95, 36, 159, 1)
+        Height: =58
+        OnSelect: |-
+            =Launch("https://dxc.com/us/en/services/it-outsourcing/storage-and-backup")
+        Text: ="Storage and Backup"
+        X: =534
+        Y: =365
+        ZIndex: =13
+
+    Button3_11 As button:
+        Fill: =RGBA(95, 36, 159, 1)
+        Height: =58
+        OnSelect: |-
+            =Launch("https://dxc.com/us/en/services/it-outsourcing")
+        Text: ="More Info"
+        X: =1090
+        Y: =357
+        ZIndex: =14
+
+    Button3_12 As button:
+        Fill: =RGBA(95, 36, 159, 1)
+        Height: =58
+        OnSelect: |-
+            =Launch("https://dxc.com/us/en/services/it-outsourcing/network")
+        Text: ="Network"
+        X: =818
+        Y: =357
+        ZIndex: =15
 

@@ -29,8 +29,7 @@
         ZIndex: =8
 
     Button1 As button:
-        Color: =RGBA(95, 36, 159, 1)
-        Fill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(95, 36, 159, 1)
         Height: =73
         OnSelect: |-
             =Launch("https://dxc.com/us/en/services/insurance-bpaas-and-bpo/banking-bpo")
@@ -40,8 +39,7 @@
         ZIndex: =9
 
     Button1_1 As button:
-        Color: =RGBA(95, 36, 159, 1)
-        Fill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(95, 36, 159, 1)
         Height: =73
         Text: ="Finance & Accounting"
         Width: =201
@@ -50,8 +48,7 @@
         ZIndex: =10
 
     Button1_2 As button:
-        Color: =RGBA(95, 36, 159, 1)
-        Fill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(95, 36, 159, 1)
         Height: =73
         Text: ="Insurance Software"
         X: =1130
@@ -59,8 +56,7 @@
         ZIndex: =11
 
     Button1_3 As button:
-        Color: =RGBA(95, 36, 159, 1)
-        Fill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(95, 36, 159, 1)
         Height: =73
         Text: ="Contact Center Experience"
         X: =858

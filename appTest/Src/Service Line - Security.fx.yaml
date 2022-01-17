@@ -54,3 +54,43 @@
         Y: =688
         ZIndex: =8
 
+    Button8_4 As button:
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(95, 36, 159, 1)
+        Fill: =RGBA(95, 36, 159, 1)
+        Text: ="Security Risk Management"
+        X: =332
+        Y: =608
+        ZIndex: =9
+
+    Button8_5 As button:
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(95, 36, 159, 1)
+        Fill: =RGBA(95, 36, 159, 1)
+        Text: ="Modern Device Management"
+        X: =554
+        Y: =608
+        ZIndex: =10
+
+    Button8_6 As button:
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(95, 36, 159, 1)
+        Fill: =RGBA(95, 36, 159, 1)
+        Text: ="Modern Device Management"
+        X: =811
+        Y: =608
+        ZIndex: =11
+
+    Button8_7 As button:
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(95, 36, 159, 1)
+        Fill: =RGBA(95, 36, 159, 1)
+        Text: ="Modern Device Management"
+        X: =1083
+        Y: =608
+        ZIndex: =12
+
