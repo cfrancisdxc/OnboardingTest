@@ -619,36 +619,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Service Line - Analytics and Engineering.Container4_10.TextInput2_10.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Service Line - Analytics and Engineering.Container4_10.TextInput2_10.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Service Line - Analytics and Engineering",
-                "type": "Service Line - Analytics and Engineering.Container4_10.TextInput2_10"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Service Line - Analytics and Engineering.Label37.FocusedBorderThickness"
                 }
               ],

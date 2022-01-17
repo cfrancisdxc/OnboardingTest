@@ -59,15 +59,11 @@
         Y: =21
         ZIndex: =7
 
-        TextInput2_10 As text:
-            AlignInContainer: =AlignInContainer.Start
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Color: =RGBA(255, 255, 255, 1)
-            Default: ="How-To Guides Template"
-            Fill: =RGBA(0, 0, 0, 0)
+        Label13 As label:
             FontWeight: =FontWeight.Bold
-            Height: =60
+            Height: =50
             Size: =40
+            Text: ="Analytics and Engineering"
             Width: =800
-            ZIndex: =2
+            ZIndex: =3
 
