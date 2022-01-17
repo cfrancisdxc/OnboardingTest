@@ -11,12 +11,19 @@
         ZIndex: =1
 
     Label14 As label:
+        Color: =RGBA(95, 36, 159, 1)
+        Height: =55
+        OnSelect: |-
+            =Launch("https://dxc.com/us/en/services/applications/enterprise-applications-and-saas")
         Text: ="Enterprise Applications and SaaS"
         X: =714
         Y: =482
         ZIndex: =4
 
     Label15 As label:
+        Color: =RGBA(95, 36, 159, 1)
+        OnSelect: |-
+            =Launch("https://dxc.com/us/en/services/applications/custom-applications")
         Text: ="Custom Applications"
         X: =1025
         Y: =482
@@ -29,6 +36,10 @@
         ZIndex: =6
 
     Label39 As label:
+        Color: =RGBA(95, 36, 159, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        OnSelect: |-
+            =Launch("https://dxc.com/us/en/services/applications/applications-modernization")
         Text: ="Applications Modernisation"
         X: =382
         Y: =482

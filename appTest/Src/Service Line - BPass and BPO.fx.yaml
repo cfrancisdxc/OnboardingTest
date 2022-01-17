@@ -11,35 +11,23 @@
         ZIndex: =1
 
     Image1 As image:
-        Height: =204
+        Height: =254
         Image: =bpas
-        Width: =874
-        X: =236
-        Y: =188
+        Width: =1099
+        X: =267
+        Y: =175
         ZIndex: =2
-
-    Label10 As label:
-        Text: ="Banking BPO"
-        X: =255
-        Y: =356
-        ZIndex: =3
-
-    Label11 As label:
-        Text: ="Finance & Accounting"
-        X: =504
-        Y: =356
-        ZIndex: =4
 
     Label11_1 As label:
         Text: ="Contact Center Experience"
-        X: =701
-        Y: =356
+        X: =872
+        Y: =371
         ZIndex: =5
 
     Label11_2 As label:
         Text: ="Insurance Software"
-        X: =926
-        Y: =356
+        X: =1176
+        Y: =371
         ZIndex: =6
 
     Label12 As label:
@@ -57,4 +45,38 @@
         X: =77
         Y: =497
         ZIndex: =8
+
+    Button1 As button:
+        Color: =RGBA(95, 36, 159, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Text: ="Banking BPO"
+        X: =308
+        Y: =371
+        ZIndex: =9
+
+    Button1_1 As button:
+        Color: =RGBA(95, 36, 159, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =58
+        Text: ="Finance & Accounting"
+        Width: =201
+        X: =590
+        Y: =371
+        ZIndex: =10
+
+    Button1_2 As button:
+        Color: =RGBA(95, 36, 159, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Text: ="Banking BPO"
+        X: =1176
+        Y: =444
+        ZIndex: =11
+
+    Button1_3 As button:
+        Color: =RGBA(95, 36, 159, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Text: ="Banking BPO"
+        X: =862
+        Y: =444
+        ZIndex: =12
 
