@@ -3,11 +3,11 @@
     Width: =1920
 
     Image7 As image:
-        Height: =156
+        Height: =190
         Image: =Security
         Width: =1178
         X: =188
-        Y: =360
+        Y: =295
         ZIndex: =1
 
     Label22 As label:
@@ -15,30 +15,6 @@
         X: =172
         Y: =93
         ZIndex: =2
-
-    Label23 As label:
-        Text: ="Security Risk Management"
-        X: =303
-        Y: =531
-        ZIndex: =3
-
-    Label24 As label:
-        Text: ="Secured Infrastructure"
-        X: =554
-        Y: =531
-        ZIndex: =4
-
-    Label25 As label:
-        Text: ="Cyber Defence"
-        X: =821
-        Y: =531
-        ZIndex: =5
-
-    Label26 As label:
-        Text: ="Digital Identity"
-        X: =1049
-        Y: =531
-        ZIndex: =6
 
     Label27 As label:
         Text: ="Overview"
@@ -59,9 +35,10 @@
         DisabledColor: =RGBA(255, 255, 255, 1)
         DisabledFill: =RGBA(95, 36, 159, 1)
         Fill: =RGBA(95, 36, 159, 1)
+        Height: =82
         Text: ="Security Risk Management"
-        X: =332
-        Y: =608
+        X: =257
+        Y: =505
         ZIndex: =9
 
     Button8_5 As button:
@@ -69,9 +46,12 @@
         DisabledColor: =RGBA(255, 255, 255, 1)
         DisabledFill: =RGBA(95, 36, 159, 1)
         Fill: =RGBA(95, 36, 159, 1)
-        Text: ="Modern Device Management"
-        X: =554
-        Y: =608
+        Height: =82
+        OnSelect: |-
+            =Launch("https://dxc.com/us/en/services/security/secured-infrastructure")
+        Text: ="Secured Infrastructure"
+        X: =550
+        Y: =505
         ZIndex: =10
 
     Button8_6 As button:
@@ -79,9 +59,12 @@
         DisabledColor: =RGBA(255, 255, 255, 1)
         DisabledFill: =RGBA(95, 36, 159, 1)
         Fill: =RGBA(95, 36, 159, 1)
-        Text: ="Modern Device Management"
-        X: =811
-        Y: =608
+        Height: =82
+        OnSelect: |-
+            =Launch("https://dxc.com/us/en/services/security/cyber-defense")
+        Text: ="Cyber Defence"
+        X: =869
+        Y: =505
         ZIndex: =11
 
     Button8_7 As button:
@@ -89,8 +72,11 @@
         DisabledColor: =RGBA(255, 255, 255, 1)
         DisabledFill: =RGBA(95, 36, 159, 1)
         Fill: =RGBA(95, 36, 159, 1)
-        Text: ="Modern Device Management"
-        X: =1083
-        Y: =608
+        Height: =82
+        OnSelect: |-
+            =Launch("https://dxc.com/us/en/services/security/digital-identity")
+        Text: ="Digital Identity"
+        X: =1153
+        Y: =505
         ZIndex: =12
 
