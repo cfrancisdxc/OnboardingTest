@@ -48,7 +48,7 @@
         DisabledColor: =RGBA(255, 255, 255, 1)
         DisabledFill: =RGBA(95, 36, 159, 1)
         Fill: =RGBA(95, 36, 159, 1)
-        Height: =84
+        Height: =100
         OnSelect: |-
             =Launch("https://dxc.com/us/en/services/modern-workplace/digital-support-services")
         Text: ="Digital Support Services"
@@ -61,7 +61,7 @@
         DisabledColor: =RGBA(255, 255, 255, 1)
         DisabledFill: =RGBA(95, 36, 159, 1)
         Fill: =RGBA(95, 36, 159, 1)
-        Height: =76
+        Height: =100
         OnSelect: |-
             =Launch("https://dxc.com/us/en/services/modern-workplace/intelligent-collaboration")
         Text: ="Intelligent Collaboration"
@@ -74,7 +74,7 @@
         DisabledColor: =RGBA(255, 255, 255, 1)
         DisabledFill: =RGBA(95, 36, 159, 1)
         Fill: =RGBA(95, 36, 159, 1)
-        Height: =94
+        Height: =100
         OnSelect: |-
             =Launch("https://dxc.com/us/en/services/modern-workplace/workplace-asset-management")
         Text: ="Workplace Asset Management"
