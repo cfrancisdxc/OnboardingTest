@@ -19,17 +19,14 @@
         Y: =96
         ZIndex: =1
 
-        TextInput2_7 As text:
-            AlignInContainer: =AlignInContainer.Start
-            BorderColor: =RGBA(0, 0, 0, 0)
+        Label54 As label:
             Color: =RGBA(255, 255, 255, 1)
-            Default: ="How-To Guides Template"
-            Fill: =RGBA(0, 0, 0, 0)
             FontWeight: =FontWeight.Bold
-            Height: =60
+            Height: =70
             Size: =40
+            Text: ="Request Annual Leave"
             Width: =800
-            ZIndex: =2
+            ZIndex: =1
 
     Button3_6 As button:
         Color: =RGBA(95, 36, 159, 1)
