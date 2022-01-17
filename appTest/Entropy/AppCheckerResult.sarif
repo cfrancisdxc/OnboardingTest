@@ -290,36 +290,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "DXC Time Prerequisite.Container4_1.TextInput2_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "DXC Time Prerequisite.Container4_1.TextInput2_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "DXC Time Prerequisite",
-                "type": "DXC Time Prerequisite.Container4_1.TextInput2_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Sick Leave.Container4_6.TextInput2_6.AccessibleLabel"
                 }
               ],
@@ -333,36 +303,6 @@
                 "member": "AccessibleLabel",
                 "module": "Sick Leave",
                 "type": "Sick Leave.Container4_6.TextInput2_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "DXC Time.Container4_2.TextInput2_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "DXC Time.Container4_2.TextInput2_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "DXC Time",
-                "type": "DXC Time.Container4_2.TextInput2_2"
               }
             }
           ],

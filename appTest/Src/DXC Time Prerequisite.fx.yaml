@@ -3,34 +3,6 @@
     Width: |
         =1920
 
-    Container4_1 As groupContainer.verticalAutoLayoutContainer:
-        BorderColor: =RGBA(95, 36, 159, 1)
-        ContentLanguage: |+
-            =
-            
-        Fill: =RGBA(95, 36, 159, 1)
-        Height: =261
-        LayoutDirection: =LayoutDirection.Vertical
-        LayoutJustifyContent: =LayoutJustifyContent.Center
-        LayoutMode: =LayoutMode.Auto
-        PaddingLeft: =30
-        Width: =1549
-        X: =185.5
-        Y: =96
-        ZIndex: =1
-
-        TextInput2_1 As text:
-            AlignInContainer: =AlignInContainer.Start
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Color: =RGBA(255, 255, 255, 1)
-            Default: ="How-To Guides Template"
-            Fill: =RGBA(0, 0, 0, 0)
-            FontWeight: =FontWeight.Bold
-            Height: =60
-            Size: =40
-            Width: =800
-            ZIndex: =2
-
     Button3 As button:
         Color: =RGBA(95, 36, 159, 1)
         Fill: =RGBA(255, 255, 255, 1)
@@ -75,7 +47,31 @@
         OnSelect: =Navigate('DXC Time')
         Text: ="Continue"
         Width: =194
-        X: =138
-        Y: =678
+        X: =171
+        Y: =684
         ZIndex: =6
+
+    Container4_13 As groupContainer.verticalAutoLayoutContainer:
+        BorderColor: =RGBA(95, 36, 159, 1)
+        ContentLanguage: |+
+            =
+            
+        Fill: =RGBA(95, 36, 159, 1)
+        Height: =261
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutJustifyContent: =LayoutJustifyContent.Center
+        LayoutMode: =LayoutMode.Auto
+        PaddingLeft: =30
+        Width: =1412
+        Y: =31
+        ZIndex: =7
+
+        Label13_3 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =70
+            Size: =40
+            Text: ="How-To Guides Template"
+            Width: =800
+            ZIndex: =3
 
