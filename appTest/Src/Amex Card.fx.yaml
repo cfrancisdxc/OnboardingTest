@@ -39,3 +39,29 @@
         Y: =165
         ZIndex: =2
 
+    Label57 As label:
+        Height: =70
+        Text: ="Apply for AMEX Card - "
+        Width: =220
+        X: =284
+        Y: =465
+        ZIndex: =3
+
+    Label58 As label:
+        Height: =90
+        Text: =" For the required signature for the form, your people manager or Line manager can be asked to sign for this."
+        Width: =788
+        X: =284
+        Y: =585
+        ZIndex: =4
+
+    Button9 As button:
+        Fill: =RGBA(95, 36, 159, 1)
+        Height: =58
+        OnSelect: |-
+            =Launch("https://my.dxc.com/our-company/global-functions/corporate-operations/travel/travel-corporatecard/DXC_CorporateTEcard.html")
+        Text: ="Apply"
+        X: =540
+        Y: =476
+        ZIndex: =5
+
