@@ -2,7 +2,7 @@
     Height: =1080
     Width: =1920
 
-    TextInput1 As text:
+    AccountSearch As text:
         Default: =
         Height: =64
         HintText: ="Search for account training"
@@ -80,7 +80,7 @@
         ZIndex: =5
 
     "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-        Items: =Filter(Table1,StartsWith(Title,TextInput1.Text))
+        Items: =Filter(Table1,StartsWith(Title,AccountSearch.Text))
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)

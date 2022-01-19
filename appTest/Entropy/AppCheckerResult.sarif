@@ -60,10 +60,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 33,
+                  "charLength": 36,
                   "charOffset": 14,
                   "snippet": {
-                    "text": "StartsWith(Title,TextInput1.Text)"
+                    "text": "StartsWith(Title,AccountSearch.Text)"
                   }
                 }
               },
@@ -307,19 +307,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Caleb test.TextInput1.AccessibleLabel"
+                  "fullyQualifiedName": "Caleb test.AccountSearch.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Caleb test.TextInput1.AccessibleLabel",
+                  "fullyQualifiedName": "Caleb test.AccountSearch.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Caleb test",
-                "type": "Caleb test.TextInput1"
+                "type": "Caleb test.AccountSearch"
               }
             }
           ],
