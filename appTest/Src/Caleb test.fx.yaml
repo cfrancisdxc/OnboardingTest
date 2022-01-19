@@ -5,6 +5,7 @@
     "Gallery4 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
         Items: =Filter(Table1_2,StartsWith(Title,AccountSearch.Text))
         Layout: =Layout.Vertical
+        ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =Min(96, Self.Height - 60)
         X: =1242
