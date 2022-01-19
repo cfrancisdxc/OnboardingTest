@@ -79,16 +79,16 @@
         Y: =40
         ZIndex: =5
 
-    "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-        Items: =Filter(Table1,StartsWith(Title,AccountSearch.Text))
+    "Gallery4 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        Items: =Filter(Table1_1,StartsWith(Title,AccountSearch.Text))
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
         X: =1242
-        Y: =143
+        Y: =156
         ZIndex: =6
 
-        Image18 As image:
+        Image19 As image:
             Height: =128
             OnSelect: =Select(Parent)
             Width: =128
@@ -96,35 +96,35 @@
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =1
 
-        Title3 As label:
+        Title4 As label:
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.Column1
+            Text: =ThisItem.Title
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - Image18.Width - 104
-            X: =Image18.X + Image18.Width + 24
+            Width: =Parent.TemplateWidth - Image19.Width - 104
+            X: =Image19.X + Image19.Width + 24
             Y: =44
             ZIndex: =2
 
-        Subtitle1 As label:
+        Subtitle2 As label:
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.Column1
+            Text: =ThisItem.Title
             VerticalAlign: =VerticalAlign.Top
-            Width: =Title3.Width
-            X: =Title3.X
-            Y: =Title3.Y + Title3.Height + 4
+            Width: =Title4.Width
+            X: =Title4.X
+            Y: =Title4.Y + Title4.Height + 4
             ZIndex: =3
 
-        NextArrow1 As icon.ChevronRight:
+        NextArrow2 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
             Height: =60
             Icon: =Icon.ChevronRight
@@ -140,7 +140,7 @@
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =4
 
-        Separator1 As rectangle:
+        Separator2 As rectangle:
             Height: =1
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
