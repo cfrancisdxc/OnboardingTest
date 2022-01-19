@@ -1,1 +1,20 @@
-{}
+{
+  "7bf4cf8e-7083-4c18-9792-b33dc9750d4a": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_teams/connections/0564e9587d0e4ed3883813b316cc6cef",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "Microsoft Teams",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1542/1.0.1542.2635/teams/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_teams"
+    },
+    "datasets": {},
+    "dataSources": [
+      "MicrosoftTeams"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "7bf4cf8e-7083-4c18-9792-b33dc9750d4a"
+  }
+}

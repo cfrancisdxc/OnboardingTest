@@ -2,24 +2,41 @@
     Height: =1080
     Width: =1920
 
-    "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-        Items: =Filter(CustomGallerySample,StartsWith(title,TextInput1.Text))
-        Layout: =Layout.Vertical
-        TemplatePadding: =0
-        TemplateSize: =Min(160, Self.Height - 60)
-        X: =796
-        Y: =368
-        ZIndex: =1
+    TextInput1 As text:
+        Default: =
+        Height: =64
+        HintText: ="Search for account training"
+        Width: =554
+        X: =1242
+        Y: =79
+        ZIndex: =2
 
-        Image5 As image:
-            Height: =128
+    Icon1 As icon.Search:
+        Height: =65
+        Icon: =Icon.Search
+        Width: =62
+        X: =1832
+        Y: =78
+        ZIndex: =3
+
+    "Gallery2 As gallery.'BrowseLayout_Flexible_SocialFeed_ver4.0'":
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        TemplatePadding: =4
+        TemplateSize: =Min(870, Self.Height - 60)
+        X: =260
+        Y: =224
+        ZIndex: =4
+
+        ProfileImage1 As image:
+            Height: =64
             OnSelect: =Select(Parent)
-            Width: =128
+            Width: =64
             X: =16
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            Y: =16
             ZIndex: =1
 
-        Title1 As label:
+        Title2 As label:
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
@@ -28,9 +45,69 @@
             PaddingTop: =0
             Text: =ThisItem.SampleHeading
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - Image5.Width - 104
-            X: =207
-            Y: =16
+            Width: =Parent.TemplateWidth - 112
+            X: =96
+            Y: =ProfileImage1.Y + (ProfileImage1.Height / 2) - (Self.Height / 2)
+            ZIndex: =2
+
+        Image17 As image:
+            Height: =Min(Self.Width, Parent.TemplateHeight - 180)
+            ImagePosition: =ImagePosition.Fill
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth - 32
+            Y: =80
+            ZIndex: =3
+
+        Body1 As label:
+            AutoHeight: =true
+            Height: =Self.Size * 4
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.SampleText
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 32
+            X: =16
+            Y: =Image17.Y + Image17.Height + 16
+            ZIndex: =4
+
+    Label3 As label:
+        Text: ="Text"
+        X: =40
+        Y: =40
+        ZIndex: =5
+
+    "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        Items: =Table1
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =Min(160, Self.Height - 60)
+        X: =1242
+        Y: =143
+        ZIndex: =6
+
+        Image18 As image:
+            Height: =128
+            OnSelect: =Select(Parent)
+            Width: =128
+            X: =16
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        Title3 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Column1
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - Image18.Width - 104
+            X: =Image18.X + Image18.Width + 24
+            Y: =44
             ZIndex: =2
 
         Subtitle1 As label:
@@ -40,11 +117,11 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.SampleText
+            Text: =ThisItem.Column1
             VerticalAlign: =VerticalAlign.Top
-            Width: =Title1.Width
-            X: =Title1.X
-            Y: =Title1.Y + Title1.Height + 4
+            Width: =Title3.Width
+            X: =Title3.X
+            Y: =Title3.Y + Title3.Height + 4
             ZIndex: =3
 
         NextArrow1 As icon.ChevronRight:
@@ -69,21 +146,4 @@
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
-
-    TextInput1 As text:
-        Default: =
-        Height: =64
-        HintText: ="Search for account training"
-        Width: =554
-        X: =796
-        Y: =303
-        ZIndex: =2
-
-    Icon1 As icon.Search:
-        Height: =65
-        Icon: =Icon.Search
-        Width: =62
-        X: =1386
-        Y: =302
-        ZIndex: =3
 
