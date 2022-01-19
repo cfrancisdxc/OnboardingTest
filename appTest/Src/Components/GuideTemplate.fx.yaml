@@ -16,11 +16,6 @@ GuideTemplate As CanvasComponent:
         Y: =130
         ZIndex: =1
 
-        Image19 As image:
-            FillPortions: =1
-            Image: =Banner_Rect
-            ZIndex: =1
-
     PageNameContainer As groupContainer.verticalAutoLayoutContainer:
         Height: =121
         LayoutJustifyContent: =LayoutJustifyContent.Center
@@ -29,15 +24,6 @@ GuideTemplate As CanvasComponent:
         X: =218
         Y: =157
         ZIndex: =2
-
-        Label7 As label:
-            Color: =RGBA(255, 255, 255, 1)
-            FillPortions: =1
-            FontWeight: =FontWeight.Bold
-            Height: =121
-            Size: =60
-            Text: ="Page Name"
-            ZIndex: =1
 
     SummaryContainer As groupContainer.verticalAutoLayoutContainer:
         Height: =86

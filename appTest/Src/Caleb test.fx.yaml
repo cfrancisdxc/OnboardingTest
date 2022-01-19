@@ -3,11 +3,13 @@
     Width: =1920
 
     "Gallery4 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
-        Items: =Filter(Table1_2,StartsWith(Title,AccountSearch.Text))
+        Height: =149
+        Items: =If(!IsBlank(AccountSearch.Text),Filter(Table1_2,StartsWith(Title,AccountSearch.Text)))
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(96, Self.Height - 60)
-        X: =1242
+        Width: =598
+        X: =1230
         Y: =156
         ZIndex: =1
 
@@ -21,7 +23,7 @@
             Text: =ThisItem.Title
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
-            X: =32
+            X: =52
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =1
 
@@ -61,7 +63,7 @@
         Height: =65
         Icon: =Icon.Search
         Width: =62
-        X: =1832
+        X: =1716
         Y: =78
         ZIndex: =3
 
@@ -119,10 +121,4 @@
             X: =16
             Y: =Image17.Y + Image17.Height + 16
             ZIndex: =4
-
-    Label3 As label:
-        Text: ="Text"
-        X: =40
-        Y: =40
-        ZIndex: =5
 
