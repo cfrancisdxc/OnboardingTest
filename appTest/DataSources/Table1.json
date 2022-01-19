@@ -1,0 +1,16 @@
+[
+  {
+    "Data": "[{\"Column1\":\"Name 1\"},{\"Column1\":\"Name 2\"},{\"Column1\":\"Name 3\"},{\"Column1\":\"Name 4\"}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "Table1",
+    "OrderedColumnNames": [
+      "Column1"
+    ],
+    "OriginalName": "Table1",
+    "OriginalSchema": "*[Column1:s]",
+    "Schema": "*[Column1:s]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]
