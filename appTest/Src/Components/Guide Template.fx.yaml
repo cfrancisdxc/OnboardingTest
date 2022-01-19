@@ -1,0 +1,41 @@
+"'Guide Template' As CanvasComponent":
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =1080
+    Width: =1920
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    "'Image cont' As groupContainer.verticalAutoLayoutContainer":
+        Height: =261.5
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutJustifyContent: =LayoutJustifyContent.Center
+        LayoutMode: =LayoutMode.Auto
+        Width: =1549
+        X: =185.5
+        Y: =130
+        ZIndex: =1
+
+        Image19 As image:
+            FillPortions: =1
+            Image: =Banner_Rect
+            ZIndex: =1
+
+    "'Label Container' As groupContainer.verticalAutoLayoutContainer":
+        Height: =132
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutJustifyContent: =LayoutJustifyContent.Center
+        LayoutMode: =LayoutMode.Auto
+        Width: =745
+        X: =213
+        Y: =195
+        ZIndex: =2
+
+        Label7 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FillPortions: =1
+            FontWeight: =FontWeight.Bold
+            Size: =72
+            Text: ="Text"
+            ZIndex: =1
+
