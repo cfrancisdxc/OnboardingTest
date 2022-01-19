@@ -7,7 +7,7 @@
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(96, Self.Height - 60)
-        X: =1242
+        X: =1230
         Y: =156
         ZIndex: =1
 
