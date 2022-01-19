@@ -80,8 +80,10 @@
         ZIndex: =2
 
     Icon1 As icon.Search:
+        Height: =65
         Icon: =Icon.Search
-        X: =1372
-        Y: =303
+        Width: =62
+        X: =1386
+        Y: =302
         ZIndex: =3
 
