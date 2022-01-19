@@ -80,7 +80,7 @@
         ZIndex: =5
 
     "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-        Items: =Table1
+        Items: =Filter(Table1,StartsWith(Title,TextInput1.Text))
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
