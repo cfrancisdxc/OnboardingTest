@@ -28,14 +28,3 @@
             Width: =800
             ZIndex: =1
 
-    Button3_8 As button:
-        Color: =RGBA(95, 36, 159, 1)
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =92
-        OnSelect: =Navigate('Main Landing Page')
-        Text: ="Home"
-        Width: =232
-        X: =1365
-        Y: =165
-        ZIndex: =2
-
