@@ -3,9 +3,7 @@
     Width: =1920
 
     "Gallery4 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
-        Items: |-
-            =
-            If(IsBlank(AccountSearch.Text),Filter(Table1_2,StartsWith(Title,AccountSearch.Text)))
+        Items: =If(!IsBlank(AccountSearch.Text),Filter(Table1_2,StartsWith(Title,AccountSearch.Text)))
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(96, Self.Height - 60)
