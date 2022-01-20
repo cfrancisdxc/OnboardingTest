@@ -13,44 +13,44 @@ HowToSidebar As CanvasComponent:
             MenuID: 1
             },
             {
-            MenuLabel: "Amex Card",
-            MenuIcon: 'AMEX',
+            MenuLabel: "Help Desk Contact Information",
+            MenuIcon: ITContact,
            //MenuScreenNavigate : DXCTime,
             MenuID: 2
             },
             {
-            MenuLabel: "DXC Time",
-            MenuIcon: 'DXC Time_1',
+            MenuLabel: "Amex Card",
+            MenuIcon: AMEX,
            //MenuScreenNavigate : DXCTime,
             MenuID: 3
             },
             {
-            MenuLabel: "DXC Time",
-            MenuIcon: 'DXC Time_1',
+            MenuLabel: "Teams Phone Request",
+            MenuIcon: TeamsPhoneReq,
            //MenuScreenNavigate : DXCTime,
             MenuID: 4
             },
             {
-            MenuLabel: "DXC Time",
-            MenuIcon: 'DXC Time_1',
+            MenuLabel: "Sick Leave",
+            MenuIcon: SickLeave,
            //MenuScreenNavigate : DXCTime,
             MenuID: 5
             },
             {
-            MenuLabel: "DXC Time",
-            MenuIcon: 'DXC Time_1',
+            MenuLabel: "Request Annual Leave",
+            MenuIcon: ReqAnnualLeave,
            //MenuScreenNavigate : DXCTime,
             MenuID: 6
             },
             {
-            MenuLabel: "DXC Time",
-            MenuIcon: 'DXC Time_1',
+            MenuLabel: "Teams Name Change",
+            MenuIcon: TeamsNameChange,
            //MenuScreenNavigate : DXCTime,
             MenuID: 7
             },
             {
-            MenuLabel: "DXC Time",
-            MenuIcon: 'DXC Time_1',
+            MenuLabel: "Teams Channels",
+            MenuIcon: 'Team Channels',
            //MenuScreenNavigate : DXCTime,
             MenuID: 8
             }
