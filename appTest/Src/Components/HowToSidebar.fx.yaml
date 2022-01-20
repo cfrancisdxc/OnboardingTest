@@ -69,7 +69,7 @@ HowToSidebar As CanvasComponent:
 
     HambugerIcon As icon.Hamburger:
         Height: =47
-        Icon: =Icon.Hamburger
+        Icon: =Icon.Search
         PaddingBottom: =5
         PaddingTop: =5
         Width: =55
