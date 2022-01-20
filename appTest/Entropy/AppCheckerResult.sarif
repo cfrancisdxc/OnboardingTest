@@ -709,36 +709,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HowToSidebar.How To Guides.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "HowToSidebar.How To Guides.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "HowToSidebar",
-                "type": "HowToSidebar.How To Guides"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "HowToSidebar.How To Guides.AccessibleLabel"
                 }
               ],
@@ -769,49 +739,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HowToSidebar.Test.AccessibleLabel"
+                  "fullyQualifiedName": "HowToSidebar.How To Guides.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "HowToSidebar.Test.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "HowToSidebar",
-                "type": "HowToSidebar.Test"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "HowToSidebar.Test.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "HowToSidebar.Test.TabIndex",
+                  "fullyQualifiedName": "HowToSidebar.How To Guides.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "HowToSidebar",
-                "type": "HowToSidebar.Test"
+                "type": "HowToSidebar.How To Guides"
               }
             }
           ],
