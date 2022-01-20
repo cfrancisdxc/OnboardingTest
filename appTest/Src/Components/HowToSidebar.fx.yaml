@@ -55,6 +55,57 @@ HowToSidebar As CanvasComponent:
             MenuID: 8
             }
          )
+    MenuIcons: |-
+        =Table(
+            {
+            MenuLabel: "DXC Time",
+            MenuIcon: 'DXC Time_1',
+           //MenuScreenNavigate : DXCTime,
+            MenuID: 1
+            },
+            {
+            MenuLabel: "Help Desk Contact Information",
+            MenuIcon: ITContact,
+           //MenuScreenNavigate : DXCTime,
+            MenuID: 2
+            },
+            {
+            MenuLabel: "Amex Card",
+            MenuIcon: AMEX,
+           //MenuScreenNavigate : DXCTime,
+            MenuID: 3
+            },
+            {
+            MenuLabel: "Teams Phone Request",
+            MenuIcon: TeamsPhoneReq,
+           //MenuScreenNavigate : DXCTime,
+            MenuID: 4
+            },
+            {
+            MenuLabel: "Sick Leave",
+            MenuIcon: SickLeave,
+           //MenuScreenNavigate : DXCTime,
+            MenuID: 5
+            },
+            {
+            MenuLabel: "Request Annual Leave",
+            MenuIcon: ReqAnnualLeave,
+           //MenuScreenNavigate : DXCTime,
+            MenuID: 6
+            },
+            {
+            MenuLabel: "Teams Name Change",
+            MenuIcon: TeamsNameChange,
+           //MenuScreenNavigate : DXCTime,
+            MenuID: 7
+            },
+            {
+            MenuLabel: "Teams Channels",
+            MenuIcon: 'Team Channels',
+           //MenuScreenNavigate : DXCTime,
+            MenuID: 8
+            }
+         )
     SelectedFill: =	RGBA(255,255,255,10%)
     Width: =640
     X: =0
@@ -63,8 +114,8 @@ HowToSidebar As CanvasComponent:
 
     "'Icon 1' As image":
         Image: ='DXC Time_1'
-        X: =245
-        Y: =110
+        X: =200
+        Y: =400
         ZIndex: =2
 
     HambugerIcon As icon.Hamburger:
@@ -77,9 +128,35 @@ HowToSidebar As CanvasComponent:
 
     "'How To Guides' As gallery.variableTemplateHeightGallery":
         Height: =Parent.Height-HambugerIcon.Height
-        Items: =CustomGallerySample
+        Items: =HowToSidebar.MenuIcons
         Layout: =Layout.Vertical
         TemplateSize: =280
         Y: =HambugerIcon.Height
         ZIndex: =4
+
+        Icon2 As icon.Add:
+            Icon: =Icon.Add
+            OnSelect: =Select(Parent)
+            PaddingTop: =5
+            Width: =40
+            X: =10
+            Y: =10
+            ZIndex: =1
+
+        Rectangle1 As rectangle:
+            Height: =52
+            OnSelect: =Select(Parent)
+            Width: =10
+            Y: =22
+            ZIndex: =2
+
+        Label3 As label:
+            AutoHeight: =true
+            FontWeight: =FontWeight.Lighter
+            OnSelect: =Select(Parent)
+            Size: =14
+            Text: =ThisItem.MenuLabel
+            X: =40
+            Y: =40
+            ZIndex: =3
 
