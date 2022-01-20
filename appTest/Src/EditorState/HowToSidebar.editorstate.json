@@ -415,14 +415,7 @@
       "X",
       "Y",
       "ZIndex",
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "Table(\r\n    {\r\n    MenuLabel: \"DXC Time\",\r\n    MenuIcon: 'DXC Time_1',\r\n   //MenuScreenNavigate : DXCTime,\r\n    MenuID: 1\r\n    }\r\n )",
-        "InvariantPropertyName": "Images",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
+      "MenuIcons",
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
@@ -470,9 +463,8 @@
     "Properties": [
       {
         "Category": "Data",
-        "NameMap": "{\"MenuID\":\"MenuID\",\"MenuIcon\":\"MenuIcon\",\"MenuLabel\":\"MenuLabel\"}",
-        "PropertyName": "Images",
-        "RuleProviderType": "Unknown"
+        "PropertyName": "MenuIcons",
+        "RuleProviderType": "System"
       },
       {
         "Category": "Data",
