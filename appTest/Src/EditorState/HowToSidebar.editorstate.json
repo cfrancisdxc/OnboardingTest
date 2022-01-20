@@ -14,7 +14,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "galleryTemplate5",
-    "ParentIndex": 3,
+    "ParentIndex": 0,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -415,7 +415,14 @@
       "X",
       "Y",
       "ZIndex",
-      "MenuIcons",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "Table(\r\n    {\r\n    MenuLabel: \"DXC Time\",\r\n    MenuIcon: 'DXC Time_1',\r\n   //MenuScreenNavigate : DXCTime,\r\n    MenuID: 1\r\n    },\r\n    {\r\n    MenuLabel: \"Help Desk Contact Information\",\r\n    MenuIcon: ITContact,\r\n   //MenuScreenNavigate : DXCTime,\r\n    MenuID: 2\r\n    },\r\n    {\r\n    MenuLabel: \"Amex Card\",\r\n    MenuIcon: AMEX,\r\n   //MenuScreenNavigate : DXCTime,\r\n    MenuID: 3\r\n    },\r\n    {\r\n    MenuLabel: \"Teams Phone Request\",\r\n    MenuIcon: TeamsPhoneReq,\r\n   //MenuScreenNavigate : DXCTime,\r\n    MenuID: 4\r\n    },\r\n    {\r\n    MenuLabel: \"Sick Leave\",\r\n    MenuIcon: SickLeave,\r\n   //MenuScreenNavigate : DXCTime,\r\n    MenuID: 5\r\n    },\r\n    {\r\n    MenuLabel: \"Request Annual Leave\",\r\n    MenuIcon: ReqAnnualLeave,\r\n   //MenuScreenNavigate : DXCTime,\r\n    MenuID: 6\r\n    },\r\n    {\r\n    MenuLabel: \"Teams Name Change\",\r\n    MenuIcon: TeamsNameChange,\r\n   //MenuScreenNavigate : DXCTime,\r\n    MenuID: 7\r\n    },\r\n    {\r\n    MenuLabel: \"Teams Channels\",\r\n    MenuIcon: 'Team Channels',\r\n   //MenuScreenNavigate : DXCTime,\r\n    MenuID: 8\r\n    }\r\n )",
+        "InvariantPropertyName": "MenuIcons",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
@@ -463,8 +470,9 @@
     "Properties": [
       {
         "Category": "Data",
+        "NameMap": "{\"MenuID\":\"MenuID\",\"MenuLabel\":\"MenuLabel\",\"MenuIcon\":\"MenuIcon\"}",
         "PropertyName": "MenuIcons",
-        "RuleProviderType": "System"
+        "RuleProviderType": "Unknown"
       },
       {
         "Category": "Data",
@@ -725,7 +733,14 @@
   "Icon2": {
     "AllowAccessToGlobals": true,
     "ControlPropertyState": [
-      "Icon",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "Icon.Add",
+        "InvariantPropertyName": "Icon",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "Color",
       "DisabledColor",
       "PressedColor",
@@ -768,7 +783,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Icon2",
-    "ParentIndex": 0,
+    "ParentIndex": 1,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -976,7 +991,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Label3",
-    "ParentIndex": 2,
+    "ParentIndex": 3,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -1218,7 +1233,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Rectangle1",
-    "ParentIndex": 1,
+    "ParentIndex": 2,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {

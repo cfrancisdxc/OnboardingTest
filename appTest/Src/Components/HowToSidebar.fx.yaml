@@ -9,7 +9,7 @@ HowToSidebar As CanvasComponent:
             {
             MenuLabel: "DXC Time",
             MenuIcon: 'DXC Time_1',
-           //MenuScreenNavigate : DXCTime,
+            //MenuScreenNavigate : DXCTime,
             MenuID: 1
             },
             {
@@ -84,10 +84,10 @@ HowToSidebar As CanvasComponent:
         ZIndex: =4
 
         Icon2 As icon.Add:
-            Icon: =Icon.Add
+            Icon: =ThisItem.MenuIcon
             OnSelect: =Select(Parent)
             PaddingTop: =5
-            Width: =40
+            Width: =87
             X: =10
             Y: =10
             ZIndex: =1
