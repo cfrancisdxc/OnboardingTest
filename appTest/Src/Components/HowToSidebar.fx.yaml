@@ -83,3 +83,26 @@ HowToSidebar As CanvasComponent:
         Y: =HambugerIcon.Height
         ZIndex: =4
 
+        Icon2 As icon.Add:
+            Icon: =Icon.Add
+            OnSelect: =Select(Parent)
+            PaddingTop: =5
+            Width: =40
+            X: =10
+            Y: =10
+            ZIndex: =1
+
+        Rectangle1 As rectangle:
+            Height: =52
+            OnSelect: =Select(Parent)
+            Width: =10
+            Y: =22
+            ZIndex: =2
+
+        Label3 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.SampleHeading
+            X: =40
+            Y: =40
+            ZIndex: =3
+
