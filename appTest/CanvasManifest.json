@@ -93,29 +93,5 @@
     "PublishTarget": "player",
     "UserLocale": "en-US"
   },
-  "ScreenOrder": [
-    "Aspect Ratio Template",
-    "How-To Guides Template",
-    "DXC Time Prerequisite",
-    "DXC Time",
-    "IT Help Desk",
-    "Amex Card",
-    "Teams Phone Request",
-    "Sick Leave",
-    "Request Annual Leave",
-    "Teams Name Change",
-    "Teams Channels",
-    "Main Landing Page",
-    "Screen1",
-    "Service Line - Analytics and Engineering",
-    "Service Line - Applications",
-    "Service Line - BPass and BPO",
-    "Service Line - Cloud",
-    "Service Line - IT Outsourcing",
-    "Service Line - Modern Workplace",
-    "Service Line - Security",
-    "How-To Guides Images",
-    "Caleb test",
-    "Side Menu Test"
-  ]
+  "ScreenOrder": []
 }
