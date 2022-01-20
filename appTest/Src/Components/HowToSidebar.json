@@ -22,9 +22,36 @@
     },
     {
       "Category": 0,
-      "DisplayName": "Color",
+      "DisplayName": "Colour",
       "Hidden": false,
-      "Name": "Color",
+      "Name": "Colour",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "CurrentIndicator Colour",
+      "Hidden": false,
+      "Name": "CurrentIndicatorColour",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "HoverFill",
+      "Hidden": false,
+      "Name": "HoverFill",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "SelectedFill",
+      "Hidden": false,
+      "Name": "SelectedFill",
       "PropertyDataTypeKey": "Color",
       "Tooltip": "A custom property",
       "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
@@ -38,7 +65,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637782744096378557",
+  "LastModifiedTimestamp": "637782747966193837",
   "Name": "dd3ee49c075f41a2a15d88036d54b386",
   "OverridableProperties": {},
   "Version": "637782738801127934"
