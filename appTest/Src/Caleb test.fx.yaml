@@ -122,3 +122,9 @@
             Y: =Image17.Y + Image17.Height + 16
             ZIndex: =4
 
+    TextInput1 As text:
+        Default: ="Text input"
+        X: =467
+        Y: =109
+        ZIndex: =5
+
