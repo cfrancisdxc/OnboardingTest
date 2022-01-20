@@ -6,12 +6,54 @@ HowToSidebar As CanvasComponent:
     HoverFill: =	RGBA(255,255,255,10%)
     Images: |-
         =Table(
-            {Value: "Item 1", Icon: Icon.Waypoint, Screen: App.ActiveScreen},
-            {Value: "Item 2", Icon: Icon.Waypoint, Screen: App.ActiveScreen},
-            {Value: "Item 3", Icon: Icon.Waypoint, Screen: App.ActiveScreen},
-            {Value: "Item 4", Icon: Icon.Waypoint, Screen: App.ActiveScreen},
-            {Value: "Item 5", Icon: Icon.Waypoint, Screen: App.ActiveScreen},
-            {Value: "Item 6", Icon: Icon.Waypoint, Screen: App.ActiveScreen}
+            {
+            MenuLabel: "DXC Time",
+            MenuIcon: 'DXC Time_1',
+           //MenuScreenNavigate : DXCTime,
+            MenuID: 1
+            },
+            {
+            MenuLabel: "DXC Time",
+            MenuIcon: 'DXC Time_1',
+           //MenuScreenNavigate : DXCTime,
+            MenuID: 2
+            },
+            {
+            MenuLabel: "DXC Time",
+            MenuIcon: 'DXC Time_1',
+           //MenuScreenNavigate : DXCTime,
+            MenuID: 3
+            },
+            {
+            MenuLabel: "DXC Time",
+            MenuIcon: 'DXC Time_1',
+           //MenuScreenNavigate : DXCTime,
+            MenuID: 4
+            },
+            {
+            MenuLabel: "DXC Time",
+            MenuIcon: 'DXC Time_1',
+           //MenuScreenNavigate : DXCTime,
+            MenuID: 5
+            },
+            {
+            MenuLabel: "DXC Time",
+            MenuIcon: 'DXC Time_1',
+           //MenuScreenNavigate : DXCTime,
+            MenuID: 6
+            },
+            {
+            MenuLabel: "DXC Time",
+            MenuIcon: 'DXC Time_1',
+           //MenuScreenNavigate : DXCTime,
+            MenuID: 7
+            },
+            {
+            MenuLabel: "DXC Time",
+            MenuIcon: 'DXC Time_1',
+           //MenuScreenNavigate : DXCTime,
+            MenuID: 8
+            }
          )
     SelectedFill: =	RGBA(255,255,255,10%)
     Width: =640
