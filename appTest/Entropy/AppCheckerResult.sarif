@@ -709,6 +709,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "App.Banner_Rect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.Banner_Rect",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Banner_Rect",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.DXC Logo 2C RGB"
                 }
               ],
@@ -948,7 +978,7 @@
               }
             }
           ],
-          "version": "1.320"
+          "version": "1.321"
         }
       }
     }
