@@ -77,7 +77,7 @@ HowToSidebar As CanvasComponent:
 
     "'How To Guides' As gallery.variableTemplateHeightGallery":
         Height: =Parent.Height-HambugerIcon.Height
-        Items: =CustomGallerySample
+        Items: =MenuLeftNav.Images
         Layout: =Layout.Vertical
         TemplateSize: =280
         Y: =HambugerIcon.Height
@@ -100,7 +100,10 @@ HowToSidebar As CanvasComponent:
             ZIndex: =2
 
         Label3 As label:
+            AutoHeight: =true
+            FontWeight: =FontWeight.Lighter
             OnSelect: =Select(Parent)
+            Size: =14
             Text: =ThisItem.SampleHeading
             X: =40
             Y: =40
