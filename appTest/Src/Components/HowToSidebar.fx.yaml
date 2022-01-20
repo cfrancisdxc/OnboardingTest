@@ -63,8 +63,8 @@ HowToSidebar As CanvasComponent:
 
     "'Icon 1' As image":
         Image: ='DXC Time_1'
-        X: =245
-        Y: =110
+        X: =200
+        Y: =400
         ZIndex: =2
 
     HambugerIcon As icon.Hamburger:
