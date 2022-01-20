@@ -458,7 +458,7 @@
         "Category": "Data",
         "NameMap": "{\"MenuID\":\"MenuID\",\"MenuIcon\":\"MenuIcon\",\"MenuLabel\":\"MenuLabel\"}",
         "PropertyName": "Images",
-        "RuleProviderType": "Unknown"
+        "RuleProviderType": "System"
       },
       {
         "Category": "Data",
@@ -483,27 +483,27 @@
       {
         "Category": "Design",
         "PropertyName": "ZIndex",
-        "RuleProviderType": "System"
+        "RuleProviderType": "Unknown"
       },
       {
         "Category": "Design",
         "PropertyName": "Y",
-        "RuleProviderType": "System"
+        "RuleProviderType": "Unknown"
       },
       {
         "Category": "Design",
         "PropertyName": "X",
-        "RuleProviderType": "System"
+        "RuleProviderType": "Unknown"
       },
       {
         "Category": "Design",
         "PropertyName": "Width",
-        "RuleProviderType": "System"
+        "RuleProviderType": "Unknown"
       },
       {
         "Category": "Design",
         "PropertyName": "Height",
-        "RuleProviderType": "System"
+        "RuleProviderType": "Unknown"
       },
       {
         "Category": "Design",
