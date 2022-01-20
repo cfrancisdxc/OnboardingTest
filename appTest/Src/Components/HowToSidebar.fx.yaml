@@ -13,8 +13,8 @@ HowToSidebar As CanvasComponent:
             MenuID: 1
             },
             {
-            MenuLabel: "DXC Time",
-            MenuIcon: 'DXC Time_1',
+            MenuLabel: "Amex Card",
+            MenuIcon: 'AMEX',
            //MenuScreenNavigate : DXCTime,
             MenuID: 2
             },

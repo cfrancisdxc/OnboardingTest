@@ -465,7 +465,7 @@
         "Category": "Data",
         "NameMap": "{\"MenuID\":\"MenuID\",\"MenuIcon\":\"MenuIcon\",\"MenuLabel\":\"MenuLabel\"}",
         "PropertyName": "Images",
-        "RuleProviderType": "System"
+        "RuleProviderType": "Unknown"
       },
       {
         "Category": "Data",
